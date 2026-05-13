@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="camposSeleccionados">#E35728</color>
+    <color name="camposNormales">#515355</color>
+    <color name="iconosGrisClaro">#BDBDBD</color>
+
+    <color name="black_back">#000000</color>
+    <color name="dark_grey">#1A1A1A</color>
+    <color name="light_grey">#888888</color>
+    <color name="orange_start">#FF8A00</color>
+    <color name="orange_end">#FF2400</color>
+
+    <color name="translucent_white_card">#CCFFFFFF</color>
+    <color name="stroke_light">#44FFFFFF</color>
+</resources>

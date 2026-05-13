@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProyectoIntermodular</string>
+    <string name="app_logo_desc">Logo de la aplicación</string>
+
+    <string name="hint_email">Usuario o Email</string>
+    <string name="hint_password">Contraseña (Mín. 12 caracteres)</string>
+    <string name="btn_acceder">INICIAR SESIÓN</string>
+    <string name="link_registro">¿No tienes cuenta? Regístrate aquí.</string>
+
+    <string name="title_register">Crear Nueva Cuenta</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_surname">Apellidos</string>
+    <string name="hint_phone">Número de Teléfono</string>
+    <string name="hint_confirm_password">Confirmar Contraseña</string>
+    <string name="btn_registrar">REGISTRARME</string>
+    <string name="link_login">¿Ya tienes cuenta? Inicia Sesión.</string>
+
+    <string name="home_welcome">¡LOGIN/REGISTRO FUNCIONAL COMPLETO!</string>
+
+    <string name="allowed_email_chars">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@._-+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

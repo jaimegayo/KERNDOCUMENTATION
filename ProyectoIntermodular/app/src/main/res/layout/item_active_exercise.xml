@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    app:cardBackgroundColor="#1A1A1A"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvExerciseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre del ejercicio"
+            android:textColor="#EA632E"
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:paddingBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/layoutTips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#252525"
+            android:padding="8dp"
+            android:visibility="gone"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/tvTipsContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aquí van las instrucciones y tips..."
+                android:textColor="#DDDDDD"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="4dp">
+            <TextView android:layout_width="30dp" android:layout_height="wrap_content" android:text="SERIE" android:textColor="#888888" android:textSize="9sp" android:gravity="center" android:fontFamily="@font/montserrat_bold"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="ANTERIOR" android:textColor="#888888" android:textSize="9sp" android:gravity="center" android:fontFamily="@font/montserrat_bold"/>
+            <TextView android:layout_width="60dp" android:layout_height="wrap_content" android:text="KG" android:textColor="#888888" android:textSize="9sp" android:gravity="center" android:fontFamily="@font/montserrat_bold"/>
+            <TextView android:layout_width="60dp" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="REPS" android:textColor="#888888" android:textSize="9sp" android:gravity="center" android:fontFamily="@font/montserrat_bold"/>
+            <View android:layout_width="32dp" android:layout_height="1dp" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSeriesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/btnAddSerie"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="+ Añadir Serie"
+            android:textColor="#EA632E"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

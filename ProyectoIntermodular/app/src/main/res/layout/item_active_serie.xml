@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="4dp"
+    android:background="#1E1E1E">
+
+    <TextView
+        android:id="@+id/tvSerieNum"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:fontFamily="@font/montserrat_extrabold"
+        android:textColor="#FFFFFF"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvSerieAnterior"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="65kg x 12"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="#A8A8A8"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/etKilos"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_edittext_active"
+        android:inputType="numberDecimal"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="60" />
+
+    <EditText
+        android:id="@+id/etReps"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/bg_edittext_active"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="10" />
+
+    <CheckBox
+        android:id="@+id/cbDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:buttonTint="#EA632E" />
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="es.iesagora.proyectointermodular.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="es.iesagora.proyectointermodular.ui.login.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="es.iesagora.proyectointermodular.ui.WelcomeFragment"
+        android:label="WelcomeFragment"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_questionnaireFragment"
+            app:destination="@id/questionnaireFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/questionnaireFragment"
+        android:name="es.iesagora.proyectointermodular.ui.QuestionnaireFragment"
+        android:label="QuestionnaireFragment"
+        tools:layout="@layout/fragment_questionnaire">
+        <action
+            android:id="@+id/action_questionnaireFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="es.iesagora.proyectointermodular.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="es.iesagora.proyectointermodular.ui.ExploreFragment"
+        android:label="ExploreFragment"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="es.iesagora.proyectointermodular.ui.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/buscadorEjerciciosFragment"
+        android:name="es.iesagora.proyectointermodular.ui.BuscadorEjerciciosFragment"
+        android:label="BuscadorEjerciciosFragment"
+        tools:layout="@layout/fragment_buscador_ejercicios" />
+
+    <fragment
+        android:id="@+id/crearRutinaFragment"
+        android:name="es.iesagora.proyectointermodular.ui.CrearRutinaFragment"
+        android:label="Nueva Rutina"
+        tools:layout="@layout/fragment_crear_rutina">
+        <action
+            android:id="@+id/action_crearRutina_to_buscador"
+            app:destination="@id/buscadorEjerciciosFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/workoutFragment"
+        android:name="es.iesagora.proyectointermodular.ui.WorkoutFragment"
+        android:label="WorkoutFragment"
+        tools:layout="@layout/fragment_workout">
+        <action
+            android:id="@+id/action_workoutFragment_to_crearRutinaFragment"
+            app:destination="@id/crearRutinaFragment" />
+        <action
+            android:id="@+id/action_workoutFragment_to_routineDetailFragment"
+            app:destination="@id/routineDetailFragment" />
+        <action
+            android:id="@+id/action_workoutFragment_to_workoutActiveFragment"
+            app:destination="@id/workoutActiveFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/routineDetailFragment"
+        android:name="es.iesagora.proyectointermodular.ui.RoutineDetailFragment"
+        android:label="Detalle de Rutina"
+        tools:layout="@layout/fragment_routine_detail">
+        <argument
+            android:name="routine_id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_routineDetail_to_crearRutina"
+            app:destination="@id/crearRutinaFragment" />
+        <action
+            android:id="@+id/action_routineDetailFragment_to_workoutActiveFragment"
+            app:destination="@id/workoutActiveFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/workoutActiveFragment"
+        android:name="es.iesagora.proyectointermodular.ui.WorkoutActiveFragment"
+        android:label="Entrenamiento en Curso"
+        tools:layout="@layout/fragment_workout_active">
+        <argument
+            android:name="routine"
+            app:argType="es.iesagora.proyectointermodular.data.model.RoutineResponse" />
+    </fragment>
+
+</navigation>

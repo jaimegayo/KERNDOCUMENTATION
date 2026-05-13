@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="es.iesagora.proyectointermodular.viewmodel.AuthViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.login.RegisterFragment">
+
+        <ImageView
+            android:id="@+id/iv_background_register"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_background_login"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#99000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="24dp">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="#1AFFFFFF"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="0dp"
+                    app:strokeWidth="1.5dp"
+                    app:strokeColor="#33FFFFFF"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="24dp">
+
+                        <ImageView
+                            android:id="@+id/iv_logo_register"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="12dp"
+                            android:src="@drawable/ic_logo_kern"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Crear Cuenta"
+                            android:textColor="@color/white"
+                            android:textSize="28sp"
+                            android:fontFamily="@font/montserrat_extrabold"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="24dp"/>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:hint="Nombre"
+                            app:boxStrokeColor="@color/selector_colores_campos"
+                            app:hintTextColor="@color/camposSeleccionados"
+                            app:boxCornerRadiusTopStart="30dp"
+                            app:boxCornerRadiusTopEnd="30dp"
+                            app:boxCornerRadiusBottomStart="30dp"
+                            app:boxCornerRadiusBottomEnd="30dp"
+                            app:startIconDrawable="@drawable/ic_person"
+                            app:startIconTint="@color/iconosGrisClaro">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:text="@={viewModel.name}" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:hint="Apellidos"
+                            app:boxStrokeColor="@color/selector_colores_campos"
+                            app:hintTextColor="@color/camposSeleccionados"
+                            app:boxCornerRadiusTopStart="30dp"
+                            app:boxCornerRadiusTopEnd="30dp"
+                            app:boxCornerRadiusBottomStart="30dp"
+                            app:boxCornerRadiusBottomEnd="30dp"
+                            app:startIconDrawable="@drawable/ic_person"
+                            app:startIconTint="@color/iconosGrisClaro">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:text="@={viewModel.surname}" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:hint="Email"
+                            app:boxStrokeColor="@color/selector_colores_campos"
+                            app:hintTextColor="@color/camposSeleccionados"
+                            app:boxCornerRadiusTopStart="30dp"
+                            app:boxCornerRadiusTopEnd="30dp"
+                            app:boxCornerRadiusBottomStart="30dp"
+                            app:boxCornerRadiusBottomEnd="30dp"
+                            app:startIconDrawable="@drawable/ic_user"
+                            app:startIconTint="@color/iconosGrisClaro">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:text="@={viewModel.email}" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:hint="Teléfono"
+                            app:boxStrokeColor="@color/selector_colores_campos"
+                            app:hintTextColor="@color/camposSeleccionados"
+                            app:boxCornerRadiusTopStart="30dp"
+                            app:boxCornerRadiusTopEnd="30dp"
+                            app:boxCornerRadiusBottomStart="30dp"
+                            app:boxCornerRadiusBottomEnd="30dp"
+                            app:startIconDrawable="@drawable/ic_phone"
+                            app:startIconTint="@color/iconosGrisClaro">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:inputType="phone"
+                                android:text="@={viewModel.phone}" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:hint="Contraseña"
+                            app:boxStrokeColor="@color/selector_colores_campos"
+                            app:hintTextColor="@color/camposSeleccionados"
+                            app:boxCornerRadiusTopStart="30dp"
+                            app:boxCornerRadiusTopEnd="30dp"
+                            app:boxCornerRadiusBottomStart="30dp"
+                            app:boxCornerRadiusBottomEnd="30dp"
+                            app:endIconMode="password_toggle"
+                            app:endIconTint="@color/iconosGrisClaro"
+                            app:startIconDrawable="@drawable/ic_password"
+                            app:startIconTint="@color/iconosGrisClaro">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:inputType="textPassword"
+                                android:text="@={viewModel.password}" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:hint="Confirmar Contraseña"
+                            app:boxStrokeColor="@color/selector_colores_campos"
+                            app:hintTextColor="@color/camposSeleccionados"
+                            app:boxCornerRadiusTopStart="30dp"
+                            app:boxCornerRadiusTopEnd="30dp"
+                            app:boxCornerRadiusBottomStart="30dp"
+                            app:boxCornerRadiusBottomEnd="30dp"
+                            app:endIconMode="password_toggle"
+                            app:endIconTint="@color/iconosGrisClaro"
+                            app:startIconDrawable="@drawable/ic_password"
+                            app:startIconTint="@color/iconosGrisClaro">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:inputType="textPassword"
+                                android:text="@={viewModel.confirmPassword}" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_register_submit"
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:layout_marginTop="24dp"
+                            android:text="REGISTRARME"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:backgroundTint="@null"
+                            app:backgroundTint="@null"
+                            android:background="@drawable/btn_gradient_background"
+                            app:cornerRadius="30dp"
+                            android:onClick="@{() -> viewModel.register()}" />
+
+                        <TextView
+                            android:id="@+id/tv_go_login"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:text="¿Ya tienes cuenta? Inicia sesión"
+                            android:fontFamily="@font/poppins"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:padding="8dp"/>
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/bg_dialog_rounded">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESCANSO"
+        android:textColor="#888888"
+        android:textSize="14sp"
+        android:letterSpacing="0.2"
+        android:fontFamily="@font/montserrat_bold" />
+
+    <TextView
+        android:id="@+id/tvTimerDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01:00"
+        android:textColor="#FFFFFF"
+        android:textSize="64sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:id="@+id/btnMinus15"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:text="-15s"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+
+        <ImageButton
+            android:id="@+id/btnPlayPause"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_play"
+            android:background="@drawable/bg_circle_accent"
+            android:layout_marginHorizontal="24dp"
+            android:contentDescription="Play/Pause"
+            app:tint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnPlus15"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="77dp"
+            android:layout_height="60dp"
+            android:text="+15s"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnResetTimer"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REINICIAR"
+        android:textColor="#888888"
+        android:textSize="12sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

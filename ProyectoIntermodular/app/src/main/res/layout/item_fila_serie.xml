@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingVertical="6dp">
+
+    <TextView
+        android:id="@+id/tvNumSerie"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FF8A00"
+        android:textSize="16sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textAlignment="center"
+        tools:text="1"/>
+
+    <EditText
+        android:id="@+id/etKilosSerie"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="2"
+        android:layout_marginHorizontal="4dp"
+        android:background="@drawable/bg_edittext_dark"
+        android:hint="Kg"
+        android:textColorHint="#666666"
+        android:textColor="#FFFFFF"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/etRepsSerie"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="2"
+        android:layout_marginHorizontal="4dp"
+        android:background="@drawable/bg_edittext_dark"
+        android:hint="Reps"
+        android:textColorHint="#666666"
+        android:textColor="#FFFFFF"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"/>
+
+    <ImageButton
+        android:id="@+id/btnEliminarFilaSerie"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_delete"
+        app:tint="#8A0000" />
+
+</LinearLayout>

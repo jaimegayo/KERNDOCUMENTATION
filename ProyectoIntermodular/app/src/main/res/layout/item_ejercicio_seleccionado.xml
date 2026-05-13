@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#1A1A1A"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="6dp"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:id="@+id/layoutCabeceraEjercicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/tvNombreEjercicioSeleccionado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="#FFFFFF"
+                tools:text="Press de Banca" />
+
+            <ImageButton
+                android:id="@+id/btnEliminarEjercicio"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentEnd="true"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_trash"
+                app:tint="#FF416C" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutDetalleExpandible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:paddingTop="12dp"
+            tools:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Instrucciones"
+                android:textSize="11sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textAllCaps="true"
+                android:textColor="#FF8A00"/>
+            <TextView
+                android:id="@+id/tvInstruccionesDetalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#CCCCCC"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins"
+                tools:text="Baja la barra hasta el pecho y empuja..."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pro Tips"
+                android:textSize="12sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textAllCaps="true"
+                android:layout_marginTop="8dp"
+                android:textColor="#4CAF50"/>
+            <TextView
+                android:id="@+id/tvTipsDetalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#CCCCCC"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins"
+                tools:text="Mantén los codos a 45 grados..."/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#444444"
+            android:layout_marginVertical="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="SERIE" android:textAlignment="center" android:textSize="11sp" android:textColor="#FFFFFF" android:fontFamily="@font/montserrat_bold"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2" android:text="KILOS" android:textAlignment="center" android:textSize="11sp" android:textColor="#FFFFFF" android:fontFamily="@font/montserrat_bold"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2" android:text="REPS" android:textAlignment="center" android:textSize="11sp" android:textColor="#FFFFFF" android:fontFamily="@font/montserrat_bold"/>
+            <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/containerSeries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAddSerieFila"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:text="+ Añadir Serie"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:background="@drawable/button_gradient" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

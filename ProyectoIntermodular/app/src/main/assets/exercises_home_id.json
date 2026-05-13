@@ -1,0 +1,2563 @@
+[
+  {
+    "id": 1,
+    "name": "Flexiones clásicas",
+    "primary_muscle": "Pecho",
+    "secondary_muscles": [
+      "Tríceps",
+      "Hombros",
+      "Core"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje horizontal",
+    "unilateral": false,
+    "instructions": "Colócate en posición de plancha con las manos ligeramente más abiertas que los hombros. Baja el cuerpo flexionando los codos hasta que el pecho se acerque al suelo y luego empuja para volver a la posición inicial.",
+    "pro_tips": [
+      "Mantén el core activado.",
+      "No dejes caer la cadera.",
+      "Controla la bajada."
+    ],
+    "common_mistakes": [
+      "Abrir demasiado los codos.",
+      "Arquear la espalda.",
+      "No bajar suficiente."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Flexiones con agarre cerrado",
+    "primary_muscle": "Tríceps",
+    "secondary_muscles": [
+      "Pecho",
+      "Hombros"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje horizontal",
+    "unilateral": false,
+    "instructions": "Realiza flexiones con las manos colocadas cerca una de otra debajo del pecho. Baja controladamente y empuja hacia arriba manteniendo los codos cerca del cuerpo.",
+    "pro_tips": [
+      "Mantén los codos pegados al torso.",
+      "Aprieta el core.",
+      "Realiza el movimiento lentamente."
+    ],
+    "common_mistakes": [
+      "Separar demasiado los codos.",
+      "Hundir la cadera.",
+      "Perder alineación corporal."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Flexiones inclinadas en silla",
+    "primary_muscle": "Pecho",
+    "secondary_muscles": [
+      "Hombros",
+      "Tríceps"
+    ],
+    "equipment": "Silla",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje horizontal",
+    "unilateral": false,
+    "instructions": "Apoya las manos en una silla firme y coloca los pies en el suelo. Baja el pecho hacia la silla y empuja para volver a la posición inicial.",
+    "pro_tips": [
+      "Ideal para principiantes.",
+      "Controla la bajada.",
+      "Mantén la espalda recta."
+    ],
+    "common_mistakes": [
+      "Encoger los hombros.",
+      "Bajar demasiado rápido.",
+      "Arquear la espalda."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Flexiones declinadas",
+    "primary_muscle": "Pecho",
+    "secondary_muscles": [
+      "Hombros",
+      "Tríceps"
+    ],
+    "equipment": "Silla",
+    "difficulty": "Avanzado",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje horizontal",
+    "unilateral": false,
+    "instructions": "Coloca los pies sobre una silla y las manos en el suelo. Baja el pecho hacia el suelo flexionando los codos y luego empuja hacia arriba.",
+    "pro_tips": [
+      "Activa el core.",
+      "Mantén el cuerpo alineado.",
+      "Controla el movimiento."
+    ],
+    "common_mistakes": [
+      "Dejar caer la cadera.",
+      "Bajar demasiado rápido.",
+      "No extender completamente los brazos."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Flexiones explosivas",
+    "primary_muscle": "Pecho",
+    "secondary_muscles": [
+      "Tríceps",
+      "Hombros"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Avanzado",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje horizontal",
+    "unilateral": false,
+    "instructions": "Realiza una flexión normal pero empuja con fuerza para despegar las manos del suelo brevemente antes de volver a apoyarlas.",
+    "pro_tips": [
+      "Aterriza con control.",
+      "Mantén el core firme.",
+      "Empuja con potencia."
+    ],
+    "common_mistakes": [
+      "Caer sin control.",
+      "No activar el core.",
+      "Arquear la espalda."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sentadilla básica",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Sentadilla",
+    "unilateral": false,
+    "instructions": "Coloca los pies a la anchura de los hombros. Baja la cadera como si fueras a sentarte en una silla y luego vuelve a subir.",
+    "pro_tips": [
+      "Empuja con los talones.",
+      "Mantén el pecho erguido.",
+      "Rodillas alineadas."
+    ],
+    "common_mistakes": [
+      "Rodillas hacia dentro.",
+      "Inclinar demasiado el torso.",
+      "No bajar suficiente."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Sentadilla con pausa",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Sentadilla",
+    "unilateral": false,
+    "instructions": "Realiza una sentadilla normal pero mantén la posición baja durante 2 segundos antes de subir.",
+    "pro_tips": [
+      "Controla el equilibrio.",
+      "Mantén el core activado.",
+      "Respira de forma controlada."
+    ],
+    "common_mistakes": [
+      "Perder equilibrio.",
+      "Subir demasiado rápido.",
+      "Curvar la espalda."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Sentadilla con mochila",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Sentadilla",
+    "unilateral": false,
+    "instructions": "Colócate una mochila con peso en la espalda y realiza sentadillas manteniendo el torso erguido.",
+    "pro_tips": [
+      "Ajusta bien la mochila.",
+      "Mantén el core firme.",
+      "Baja de forma controlada."
+    ],
+    "common_mistakes": [
+      "Inclinar demasiado el torso.",
+      "Bajar demasiado rápido.",
+      "Rodillas hacia dentro."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Sentadilla sumo",
+    "primary_muscle": "Aductores",
+    "secondary_muscles": [
+      "Glúteos",
+      "Cuádriceps"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Sentadilla",
+    "unilateral": false,
+    "instructions": "Coloca los pies más abiertos que los hombros y con las puntas ligeramente hacia fuera. Baja la cadera y vuelve a subir.",
+    "pro_tips": [
+      "Mantén las rodillas alineadas.",
+      "Activa los glúteos.",
+      "Mantén el pecho erguido."
+    ],
+    "common_mistakes": [
+      "Rodillas hacia dentro.",
+      "Inclinar el torso.",
+      "No bajar suficiente."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Sentadilla con salto",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Avanzado",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Explosivo",
+    "unilateral": false,
+    "instructions": "Realiza una sentadilla y al subir impulsa el cuerpo en un salto vertical. Aterriza suavemente y repite.",
+    "pro_tips": [
+      "Aterriza con las rodillas flexionadas.",
+      "Usa los brazos para impulsarte.",
+      "Mantén el core firme."
+    ],
+    "common_mistakes": [
+      "Aterrizar con rodillas rígidas.",
+      "Perder equilibrio.",
+      "No controlar el salto."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Zancadas alternas",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Isquiotibiales"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Zancada",
+    "unilateral": true,
+    "instructions": "Da un paso hacia adelante con una pierna y baja el cuerpo hasta que ambas rodillas estén cerca de 90 grados. Empuja con la pierna delantera para volver a la posición inicial y alterna.",
+    "pro_tips": [
+      "Mantén el torso erguido.",
+      "Da pasos largos.",
+      "Empuja con el talón delantero."
+    ],
+    "common_mistakes": [
+      "Inclinar demasiado el torso.",
+      "Rodilla delantera hacia dentro.",
+      "Pasos demasiado cortos."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Zancada atrás",
+    "primary_muscle": "Glúteos",
+    "secondary_muscles": [
+      "Cuádriceps",
+      "Isquiotibiales"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Zancada",
+    "unilateral": true,
+    "instructions": "Desde posición de pie da un paso hacia atrás y baja la rodilla trasera hacia el suelo. Empuja con la pierna delantera para volver.",
+    "pro_tips": [
+      "Controla la bajada.",
+      "Mantén el core activado.",
+      "Rodilla alineada con el pie."
+    ],
+    "common_mistakes": [
+      "Dar pasos demasiado cortos.",
+      "Perder equilibrio.",
+      "Inclinar el torso."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Zancadas caminando",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Zancada",
+    "unilateral": true,
+    "instructions": "Realiza una zancada hacia adelante y en lugar de volver, avanza con la pierna trasera para continuar caminando.",
+    "pro_tips": [
+      "Mantén el ritmo constante.",
+      "Torso erguido.",
+      "Pasos largos."
+    ],
+    "common_mistakes": [
+      "Inclinarse demasiado.",
+      "No bajar suficiente.",
+      "Perder equilibrio."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Puente de glúteos",
+    "primary_muscle": "Glúteos",
+    "secondary_muscles": [
+      "Isquiotibiales",
+      "Core"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Bisagra de cadera",
+    "unilateral": false,
+    "instructions": "Túmbate boca arriba con las rodillas flexionadas. Empuja con los talones elevando la cadera hasta formar una línea recta entre rodillas y hombros.",
+    "pro_tips": [
+      "Aprieta los glúteos arriba.",
+      "No arquees la espalda.",
+      "Empuja con los talones."
+    ],
+    "common_mistakes": [
+      "Empujar con la espalda baja.",
+      "Subir demasiado rápido.",
+      "No activar glúteos."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Puente de glúteos a una pierna",
+    "primary_muscle": "Glúteos",
+    "secondary_muscles": [
+      "Isquiotibiales",
+      "Core"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Bisagra de cadera",
+    "unilateral": true,
+    "instructions": "Realiza un puente de glúteos con una pierna extendida mientras la otra empuja el suelo.",
+    "pro_tips": [
+      "Mantén la pelvis estable.",
+      "Aprieta glúteos arriba.",
+      "Controla la bajada."
+    ],
+    "common_mistakes": [
+      "Rotar la cadera.",
+      "Subir demasiado rápido.",
+      "Perder alineación."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Hip thrust con silla",
+    "primary_muscle": "Glúteos",
+    "secondary_muscles": [
+      "Isquiotibiales",
+      "Core"
+    ],
+    "equipment": "Silla",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Bisagra de cadera",
+    "unilateral": false,
+    "instructions": "Apoya la espalda alta en una silla y los pies en el suelo. Eleva la cadera apretando los glúteos y vuelve a bajar controladamente.",
+    "pro_tips": [
+      "Mantén la barbilla hacia el pecho.",
+      "Aprieta glúteos arriba.",
+      "Controla la bajada."
+    ],
+    "common_mistakes": [
+      "Arquear la espalda.",
+      "Subir demasiado rápido.",
+      "No extender completamente la cadera."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Remo con banda elástica",
+    "primary_muscle": "Espalda",
+    "secondary_muscles": [
+      "Bíceps",
+      "Hombros"
+    ],
+    "equipment": "Bandas elásticas",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Tracción horizontal",
+    "unilateral": false,
+    "instructions": "Sujeta una banda elástica anclada delante de ti y tira de ella hacia el torso juntando los omóplatos.",
+    "pro_tips": [
+      "Aprieta escápulas.",
+      "Controla el regreso.",
+      "Pecho abierto."
+    ],
+    "common_mistakes": [
+      "Encoger hombros.",
+      "Tirar con impulso.",
+      "Curvar la espalda."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Remo con mochila",
+    "primary_muscle": "Espalda",
+    "secondary_muscles": [
+      "Bíceps",
+      "Core"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Tracción horizontal",
+    "unilateral": false,
+    "instructions": "Inclina el torso ligeramente hacia adelante sosteniendo una mochila con peso y tira de ella hacia el abdomen.",
+    "pro_tips": [
+      "Espalda recta.",
+      "Movimiento controlado.",
+      "Aprieta omóplatos."
+    ],
+    "common_mistakes": [
+      "Redondear la espalda.",
+      "Usar impulso.",
+      "Balancear el cuerpo."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Plancha abdominal",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Hombros",
+      "Espalda baja"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": false,
+    "instructions": "Apoya antebrazos y pies en el suelo manteniendo el cuerpo alineado. Mantén la posición el mayor tiempo posible.",
+    "pro_tips": [
+      "Aprieta glúteos.",
+      "Mantén abdomen contraído.",
+      "Respira de forma controlada."
+    ],
+    "common_mistakes": [
+      "Dejar caer la cadera.",
+      "Subir demasiado la cadera.",
+      "No activar el core."
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Plancha lateral",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Oblicuos",
+      "Hombros"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": true,
+    "instructions": "Apoya un antebrazo en el suelo y eleva el cuerpo de lado manteniendo una línea recta desde pies hasta cabeza.",
+    "pro_tips": [
+      "Cadera elevada.",
+      "Core activado.",
+      "Mantén equilibrio."
+    ],
+    "common_mistakes": [
+      "Dejar caer la cadera.",
+      "Rotar el torso.",
+      "Apoyar demasiado peso en el hombro."
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Plancha con elevación de pierna",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Glúteos",
+      "Espalda baja"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": true,
+    "instructions": "Colócate en posición de plancha sobre los antebrazos. Eleva una pierna unos centímetros manteniendo el cuerpo estable y alterna.",
+    "pro_tips": [
+      "Mantén la cadera estable.",
+      "Activa el abdomen.",
+      "Levanta la pierna de forma controlada."
+    ],
+    "common_mistakes": [
+      "Mover demasiado la cadera.",
+      "Arquear la espalda.",
+      "Subir la pierna demasiado."
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Crunch abdominal",
+    "primary_muscle": "Abdominales",
+    "secondary_muscles": [
+      "Core"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": false,
+    "instructions": "Túmbate boca arriba con las rodillas flexionadas. Eleva ligeramente los hombros del suelo contrayendo los abdominales.",
+    "pro_tips": [
+      "No tires del cuello.",
+      "Movimiento corto y controlado.",
+      "Contrae el abdomen arriba."
+    ],
+    "common_mistakes": [
+      "Tirar del cuello.",
+      "Subir demasiado el torso.",
+      "Hacer rebotes."
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Elevaciones de piernas tumbado",
+    "primary_muscle": "Abdominales inferiores",
+    "secondary_muscles": [
+      "Core",
+      "Flexores de cadera"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": false,
+    "instructions": "Túmbate boca arriba con las piernas estiradas. Eleva ambas piernas hasta formar un ángulo de 90° y bájalas lentamente.",
+    "pro_tips": [
+      "Mantén la espalda baja pegada al suelo.",
+      "Controla la bajada.",
+      "Aprieta el abdomen."
+    ],
+    "common_mistakes": [
+      "Arquear la espalda.",
+      "Bajar demasiado rápido.",
+      "Usar impulso."
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Mountain climbers",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Piernas",
+      "Hombros"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Core",
+    "unilateral": true,
+    "instructions": "Desde posición de plancha lleva una rodilla hacia el pecho y alterna rápidamente como si estuvieras corriendo.",
+    "pro_tips": [
+      "Mantén el core activado.",
+      "Ritmo constante.",
+      "Espalda recta."
+    ],
+    "common_mistakes": [
+      "Levantar demasiado la cadera.",
+      "Perder la postura.",
+      "Moverse demasiado lento."
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Burpees",
+    "primary_muscle": "Piernas",
+    "secondary_muscles": [
+      "Pecho",
+      "Core",
+      "Hombros"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Avanzado",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Explosivo",
+    "unilateral": false,
+    "instructions": "Desde posición de pie baja a una sentadilla, coloca las manos en el suelo, salta a posición de plancha, vuelve a la sentadilla y salta hacia arriba.",
+    "pro_tips": [
+      "Mantén ritmo constante.",
+      "Aterriza suave.",
+      "Activa el core."
+    ],
+    "common_mistakes": [
+      "Arquear la espalda.",
+      "Aterrizar con piernas rígidas.",
+      "Hacer el movimiento sin control."
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Sentadilla isométrica en pared",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Pared",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Sentadilla",
+    "unilateral": false,
+    "instructions": "Apoya la espalda en una pared y baja hasta que las rodillas formen 90°. Mantén la posición.",
+    "pro_tips": [
+      "Espalda pegada a la pared.",
+      "Peso en los talones.",
+      "Respira de forma controlada."
+    ],
+    "common_mistakes": [
+      "Rodillas demasiado adelantadas.",
+      "No bajar suficiente.",
+      "Apoyarse demasiado en las manos."
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Flexiones contra pared",
+    "primary_muscle": "Pecho",
+    "secondary_muscles": [
+      "Hombros",
+      "Tríceps"
+    ],
+    "equipment": "Pared",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje horizontal",
+    "unilateral": false,
+    "instructions": "Coloca las manos en la pared a la altura del pecho y flexiona los brazos acercando el pecho a la pared.",
+    "pro_tips": [
+      "Mantén el cuerpo recto.",
+      "Controla la bajada.",
+      "Activa el core."
+    ],
+    "common_mistakes": [
+      "Separar demasiado los codos.",
+      "Arquear la espalda.",
+      "No controlar el movimiento."
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Remo unilateral con banda",
+    "primary_muscle": "Espalda",
+    "secondary_muscles": [
+      "Bíceps",
+      "Hombros"
+    ],
+    "equipment": "Bandas elásticas",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Tracción horizontal",
+    "unilateral": true,
+    "instructions": "Sujeta una banda elástica con una mano y tira hacia el torso juntando el omóplato.",
+    "pro_tips": [
+      "Movimiento controlado.",
+      "Espalda recta.",
+      "Aprieta escápulas."
+    ],
+    "common_mistakes": [
+      "Encoger hombros.",
+      "Usar impulso.",
+      "Curvar la espalda."
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Curl de bíceps con banda",
+    "primary_muscle": "Bíceps",
+    "secondary_muscles": [
+      "Antebrazos"
+    ],
+    "equipment": "Bandas elásticas",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Tracción",
+    "unilateral": false,
+    "instructions": "Pisa una banda elástica y tira de ella flexionando los codos hasta llevar las manos hacia los hombros.",
+    "pro_tips": [
+      "Codos pegados al cuerpo.",
+      "Controla la bajada.",
+      "Movimiento lento."
+    ],
+    "common_mistakes": [
+      "Balancear el cuerpo.",
+      "Subir demasiado rápido.",
+      "Separar los codos."
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Extensión de tríceps con banda",
+    "primary_muscle": "Tríceps",
+    "secondary_muscles": [
+      "Hombros"
+    ],
+    "equipment": "Bandas elásticas",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje",
+    "unilateral": false,
+    "instructions": "Sujeta una banda por encima de la cabeza y extiende los brazos para trabajar los tríceps.",
+    "pro_tips": [
+      "Codos estables.",
+      "Movimiento controlado.",
+      "Aprieta tríceps al final."
+    ],
+    "common_mistakes": [
+      "Mover los codos.",
+      "Usar impulso.",
+      "Arquear la espalda."
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Sentadilla búlgara con silla",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Silla",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Sentadilla",
+    "unilateral": true,
+    "instructions": "Coloca un pie detrás sobre una silla y el otro en el suelo. Baja la cadera flexionando la rodilla delantera y vuelve a subir.",
+    "pro_tips": [
+      "Mantén el torso erguido.",
+      "Baja de forma controlada.",
+      "Empuja con el talón delantero."
+    ],
+    "common_mistakes": [
+      "Inclinar demasiado el torso.",
+      "Rodilla hacia dentro.",
+      "Perder equilibrio."
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Sentadilla búlgara con mochila",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Avanzado",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Sentadilla",
+    "unilateral": true,
+    "instructions": "Realiza una sentadilla búlgara llevando una mochila con peso en la espalda.",
+    "pro_tips": [
+      "Mantén el core firme.",
+      "Controla la bajada.",
+      "Alinea rodilla y pie."
+    ],
+    "common_mistakes": [
+      "Inclinar el torso.",
+      "Bajar demasiado rápido.",
+      "Perder estabilidad."
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Step-up en silla",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Isquiotibiales"
+    ],
+    "equipment": "Silla",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Subida",
+    "unilateral": true,
+    "instructions": "Sube a una silla colocando un pie encima y empuja con esa pierna para elevar el cuerpo.",
+    "pro_tips": [
+      "Empuja con el talón.",
+      "Controla la bajada.",
+      "Mantén el equilibrio."
+    ],
+    "common_mistakes": [
+      "Impulsarse con la pierna trasera.",
+      "Perder equilibrio.",
+      "Bajar demasiado rápido."
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Step-up con mochila",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Subida",
+    "unilateral": true,
+    "instructions": "Realiza un step-up en una silla mientras llevas una mochila con peso.",
+    "pro_tips": [
+      "Mantén el torso erguido.",
+      "Controla la bajada.",
+      "Aprieta glúteos arriba."
+    ],
+    "common_mistakes": [
+      "Inclinar el torso.",
+      "Subir demasiado rápido.",
+      "Usar impulso."
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Buenos días con mochila",
+    "primary_muscle": "Isquiotibiales",
+    "secondary_muscles": [
+      "Glúteos",
+      "Espalda baja"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Bisagra de cadera",
+    "unilateral": false,
+    "instructions": "Coloca una mochila en la espalda y flexiona ligeramente las rodillas mientras inclinas el torso hacia adelante.",
+    "pro_tips": [
+      "Espalda recta.",
+      "Movimiento controlado.",
+      "Empuja cadera hacia atrás."
+    ],
+    "common_mistakes": [
+      "Redondear la espalda.",
+      "Bajar demasiado rápido.",
+      "Doblar demasiado las rodillas."
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Peso muerto a una pierna con mochila",
+    "primary_muscle": "Isquiotibiales",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Avanzado",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Bisagra de cadera",
+    "unilateral": true,
+    "instructions": "Sujeta una mochila y flexiona el torso mientras una pierna se eleva hacia atrás manteniendo el equilibrio.",
+    "pro_tips": [
+      "Mantén la espalda recta.",
+      "Movimiento lento.",
+      "Activa glúteos."
+    ],
+    "common_mistakes": [
+      "Perder equilibrio.",
+      "Curvar la espalda.",
+      "Bajar demasiado rápido."
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Superman en suelo",
+    "primary_muscle": "Espalda baja",
+    "secondary_muscles": [
+      "Glúteos",
+      "Hombros"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Extensión",
+    "unilateral": false,
+    "instructions": "Túmbate boca abajo y eleva brazos y piernas simultáneamente contrayendo la espalda.",
+    "pro_tips": [
+      "Movimiento lento.",
+      "Aprieta glúteos.",
+      "Mantén cuello neutro."
+    ],
+    "common_mistakes": [
+      "Elevar demasiado la cabeza.",
+      "Movimiento brusco.",
+      "No activar glúteos."
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Superman alterno",
+    "primary_muscle": "Espalda baja",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Extensión",
+    "unilateral": true,
+    "instructions": "Desde posición boca abajo eleva brazo derecho y pierna izquierda alternando.",
+    "pro_tips": [
+      "Movimiento controlado.",
+      "Mantén el core activo.",
+      "Respira de forma constante."
+    ],
+    "common_mistakes": [
+      "Levantar demasiado rápido.",
+      "Arquear el cuello.",
+      "No controlar el movimiento."
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Elevaciones laterales con banda",
+    "primary_muscle": "Hombros",
+    "secondary_muscles": [
+      "Trapecio"
+    ],
+    "equipment": "Bandas elásticas",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Elevación",
+    "unilateral": false,
+    "instructions": "Pisa una banda elástica y eleva los brazos lateralmente hasta la altura de los hombros.",
+    "pro_tips": [
+      "Movimiento lento.",
+      "Brazos ligeramente flexionados.",
+      "Controla la bajada."
+    ],
+    "common_mistakes": [
+      "Encoger hombros.",
+      "Balancear el cuerpo.",
+      "Subir demasiado rápido."
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Press de hombros con banda",
+    "primary_muscle": "Hombros",
+    "secondary_muscles": [
+      "Tríceps"
+    ],
+    "equipment": "Bandas elásticas",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje vertical",
+    "unilateral": false,
+    "instructions": "Pisa la banda elástica y empuja hacia arriba extendiendo los brazos por encima de la cabeza.",
+    "pro_tips": [
+      "Core firme.",
+      "Movimiento controlado.",
+      "No arquear la espalda."
+    ],
+    "common_mistakes": [
+      "Arquear la espalda.",
+      "Subir demasiado rápido.",
+      "Codos demasiado abiertos."
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Jumping jacks",
+    "primary_muscle": "Piernas",
+    "secondary_muscles": [
+      "Hombros",
+      "Core"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Principiante",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Explosivo",
+    "unilateral": false,
+    "instructions": "Desde posición de pie salta abriendo las piernas mientras elevas los brazos por encima de la cabeza. Vuelve a la posición inicial.",
+    "pro_tips": [
+      "Mantén ritmo constante.",
+      "Aterriza suave.",
+      "Respira de forma regular."
+    ],
+    "common_mistakes": [
+      "Aterrizar con piernas rígidas.",
+      "Perder coordinación.",
+      "No mover completamente los brazos."
+    ]
+  },
+  {
+    "id": 42,
+    "name": "High knees",
+    "primary_muscle": "Piernas",
+    "secondary_muscles": [
+      "Core"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Principiante",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Explosivo",
+    "unilateral": true,
+    "instructions": "Corre en el sitio elevando las rodillas lo más alto posible mientras mueves los brazos.",
+    "pro_tips": [
+      "Mantén el core firme.",
+      "Movimiento rápido.",
+      "Mantén el torso erguido."
+    ],
+    "common_mistakes": [
+      "Inclinar demasiado el torso.",
+      "Elevar poco las rodillas.",
+      "Ritmo irregular."
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Butt kicks",
+    "primary_muscle": "Isquiotibiales",
+    "secondary_muscles": [
+      "Cuádriceps"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Principiante",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Explosivo",
+    "unilateral": true,
+    "instructions": "Corre en el sitio intentando tocar los glúteos con los talones.",
+    "pro_tips": [
+      "Movimiento rápido.",
+      "Mantén ritmo constante.",
+      "Usa los brazos para equilibrio."
+    ],
+    "common_mistakes": [
+      "Moverse demasiado lento.",
+      "Inclinar el torso.",
+      "No elevar suficiente los talones."
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Skater jumps",
+    "primary_muscle": "Glúteos",
+    "secondary_muscles": [
+      "Cuádriceps",
+      "Core"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Explosivo",
+    "unilateral": true,
+    "instructions": "Salta lateralmente de una pierna a otra imitando el movimiento de un patinador.",
+    "pro_tips": [
+      "Salta lejos lateralmente.",
+      "Mantén equilibrio.",
+      "Aterriza suave."
+    ],
+    "common_mistakes": [
+      "Saltos muy cortos.",
+      "Perder equilibrio.",
+      "Aterrizar rígido."
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Tuck jumps",
+    "primary_muscle": "Piernas",
+    "secondary_muscles": [
+      "Core"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Avanzado",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Explosivo",
+    "unilateral": false,
+    "instructions": "Salta verticalmente elevando las rodillas hacia el pecho.",
+    "pro_tips": [
+      "Impúlsate con fuerza.",
+      "Aterriza suave.",
+      "Activa el core."
+    ],
+    "common_mistakes": [
+      "Aterrizar rígido.",
+      "No elevar las rodillas.",
+      "Perder equilibrio."
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Bear crawl",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Hombros",
+      "Piernas"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Core",
+    "unilateral": true,
+    "instructions": "Desde posición de cuadrupedia con rodillas elevadas avanza moviendo mano y pierna contraria.",
+    "pro_tips": [
+      "Movimiento lento.",
+      "Espalda neutra.",
+      "Core activado."
+    ],
+    "common_mistakes": [
+      "Subir demasiado la cadera.",
+      "Moverse rápido sin control.",
+      "Curvar la espalda."
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Plank shoulder taps",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Hombros"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": true,
+    "instructions": "Desde posición de plancha toca un hombro con la mano contraria alternando.",
+    "pro_tips": [
+      "Mantén la cadera estable.",
+      "Movimiento controlado.",
+      "Core firme."
+    ],
+    "common_mistakes": [
+      "Balancear la cadera.",
+      "Moverse demasiado rápido.",
+      "Perder postura."
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Russian twist",
+    "primary_muscle": "Oblicuos",
+    "secondary_muscles": [
+      "Core"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Rotación",
+    "unilateral": true,
+    "instructions": "Sentado con piernas ligeramente elevadas rota el torso de un lado a otro.",
+    "pro_tips": [
+      "Movimiento controlado.",
+      "Core activado.",
+      "Espalda recta."
+    ],
+    "common_mistakes": [
+      "Mover solo los brazos.",
+      "Curvar la espalda.",
+      "Hacer rebotes."
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Russian twist con mochila",
+    "primary_muscle": "Oblicuos",
+    "secondary_muscles": [
+      "Core"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Rotación",
+    "unilateral": true,
+    "instructions": "Realiza un Russian twist sosteniendo una mochila con peso.",
+    "pro_tips": [
+      "Mantén equilibrio.",
+      "Movimiento controlado.",
+      "Respira de forma regular."
+    ],
+    "common_mistakes": [
+      "Mover solo brazos.",
+      "Perder equilibrio.",
+      "Curvar la espalda."
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Hollow hold",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Abdominales"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Avanzado",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": false,
+    "instructions": "Túmbate boca arriba y eleva brazos y piernas manteniendo la espalda baja pegada al suelo.",
+    "pro_tips": [
+      "Aprieta el abdomen.",
+      "Mantén postura estable.",
+      "Respira controlado."
+    ],
+    "common_mistakes": [
+      "Arquear la espalda.",
+      "Levantar demasiado las piernas.",
+      "No activar el core."
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Hollow rocks",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Abdominales"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Avanzado",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": false,
+    "instructions": "Desde posición de hollow hold balancea el cuerpo ligeramente hacia adelante y hacia atrás manteniendo la postura.",
+    "pro_tips": [
+      "Mantén la espalda baja pegada al suelo.",
+      "Movimiento pequeño.",
+      "Core activado."
+    ],
+    "common_mistakes": [
+      "Arquear la espalda.",
+      "Balanceo demasiado grande.",
+      "Perder tensión en el core."
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Sit-ups",
+    "primary_muscle": "Abdominales",
+    "secondary_muscles": [
+      "Flexores de cadera"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": false,
+    "instructions": "Túmbate boca arriba con rodillas flexionadas y eleva el torso hasta sentarte.",
+    "pro_tips": [
+      "Controla la bajada.",
+      "No tires del cuello.",
+      "Activa el abdomen."
+    ],
+    "common_mistakes": [
+      "Tirar del cuello.",
+      "Movimiento brusco.",
+      "Usar impulso."
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Sit-ups con mochila",
+    "primary_muscle": "Abdominales",
+    "secondary_muscles": [
+      "Core"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": false,
+    "instructions": "Realiza sit-ups sosteniendo una mochila en el pecho para añadir resistencia.",
+    "pro_tips": [
+      "Movimiento controlado.",
+      "Respira al subir.",
+      "Aprieta abdomen."
+    ],
+    "common_mistakes": [
+      "Usar impulso.",
+      "Arquear la espalda.",
+      "Subir demasiado rápido."
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Elevaciones de rodillas sentado",
+    "primary_muscle": "Abdominales inferiores",
+    "secondary_muscles": [
+      "Flexores de cadera"
+    ],
+    "equipment": "Silla",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": false,
+    "instructions": "Sentado en una silla eleva ambas rodillas hacia el pecho y vuelve a bajar.",
+    "pro_tips": [
+      "Mantén el core activo.",
+      "Movimiento lento.",
+      "Espalda recta."
+    ],
+    "common_mistakes": [
+      "Balancear el torso.",
+      "Movimiento rápido.",
+      "No contraer abdomen."
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Elevación de rodilla en plancha",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Piernas"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": true,
+    "instructions": "Desde posición de plancha lleva una rodilla hacia el pecho lentamente.",
+    "pro_tips": [
+      "Movimiento controlado.",
+      "Core firme.",
+      "Espalda recta."
+    ],
+    "common_mistakes": [
+      "Levantar cadera.",
+      "Movimiento brusco.",
+      "No activar abdomen."
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Wall walk",
+    "primary_muscle": "Hombros",
+    "secondary_muscles": [
+      "Core",
+      "Pecho"
+    ],
+    "equipment": "Pared",
+    "difficulty": "Avanzado",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje vertical",
+    "unilateral": false,
+    "instructions": "Desde posición de plancha con pies en la pared camina con los pies hacia arriba mientras acercas las manos a la pared.",
+    "pro_tips": [
+      "Movimiento lento.",
+      "Core activado.",
+      "Controla cada paso."
+    ],
+    "common_mistakes": [
+      "Subir demasiado rápido.",
+      "Arquear la espalda.",
+      "Perder control."
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Handstand hold contra pared",
+    "primary_muscle": "Hombros",
+    "secondary_muscles": [
+      "Core",
+      "Tríceps"
+    ],
+    "equipment": "Pared",
+    "difficulty": "Avanzado",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje vertical",
+    "unilateral": false,
+    "instructions": "Colócate en posición de pino apoyando los pies en la pared y mantén la posición.",
+    "pro_tips": [
+      "Aprieta glúteos.",
+      "Core activado.",
+      "Mirada neutra."
+    ],
+    "common_mistakes": [
+      "Arquear la espalda.",
+      "Separar demasiado las manos.",
+      "No activar core."
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Pike push-ups",
+    "primary_muscle": "Hombros",
+    "secondary_muscles": [
+      "Tríceps",
+      "Pecho"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje vertical",
+    "unilateral": false,
+    "instructions": "Desde posición en V invertida flexiona los brazos llevando la cabeza hacia el suelo y vuelve a subir.",
+    "pro_tips": [
+      "Mantén cadera alta.",
+      "Movimiento controlado.",
+      "Codos hacia atrás."
+    ],
+    "common_mistakes": [
+      "Bajar demasiado rápido.",
+      "Curvar espalda.",
+      "No controlar el movimiento."
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Pike push-ups con pies en silla",
+    "primary_muscle": "Hombros",
+    "secondary_muscles": [
+      "Tríceps"
+    ],
+    "equipment": "Silla",
+    "difficulty": "Avanzado",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje vertical",
+    "unilateral": false,
+    "instructions": "Realiza pike push-ups elevando los pies sobre una silla.",
+    "pro_tips": [
+      "Mantén el core firme.",
+      "Movimiento lento.",
+      "Controla la bajada."
+    ],
+    "common_mistakes": [
+      "Arquear la espalda.",
+      "Bajar demasiado rápido.",
+      "Codos abiertos."
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Flexiones tipo archer",
+    "primary_muscle": "Pecho",
+    "secondary_muscles": [
+      "Hombros",
+      "Tríceps"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Avanzado",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje horizontal",
+    "unilateral": true,
+    "instructions": "Realiza una flexión desplazando el peso hacia un brazo mientras el otro permanece más extendido.",
+    "pro_tips": [
+      "Controla el peso corporal.",
+      "Movimiento lento.",
+      "Core firme."
+    ],
+    "common_mistakes": [
+      "Perder equilibrio.",
+      "Bajar demasiado rápido.",
+      "No controlar la técnica."
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Flexiones con pausa abajo",
+    "primary_muscle": "Pecho",
+    "secondary_muscles": [
+      "Tríceps",
+      "Hombros",
+      "Core"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje horizontal",
+    "unilateral": false,
+    "instructions": "Realiza una flexión y mantén la posición baja durante 2 segundos antes de empujar hacia arriba.",
+    "pro_tips": [
+      "Mantén el core activado.",
+      "Controla la pausa.",
+      "Empuja de forma explosiva."
+    ],
+    "common_mistakes": [
+      "Bajar demasiado rápido.",
+      "Arquear la espalda.",
+      "No mantener la pausa."
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Flexiones diamante",
+    "primary_muscle": "Tríceps",
+    "secondary_muscles": [
+      "Pecho",
+      "Hombros"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje horizontal",
+    "unilateral": false,
+    "instructions": "Coloca las manos juntas formando un diamante bajo el pecho y realiza flexiones.",
+    "pro_tips": [
+      "Codos cerca del cuerpo.",
+      "Movimiento controlado.",
+      "Aprieta tríceps."
+    ],
+    "common_mistakes": [
+      "Separar los codos.",
+      "Arquear la espalda.",
+      "Bajar demasiado rápido."
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Flexiones a una mano asistidas",
+    "primary_muscle": "Pecho",
+    "secondary_muscles": [
+      "Tríceps",
+      "Core"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Avanzado",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje horizontal",
+    "unilateral": true,
+    "instructions": "Realiza una flexión apoyando una mano y usando la otra solo como asistencia ligera.",
+    "pro_tips": [
+      "Core firme.",
+      "Movimiento lento.",
+      "Distribuye el peso correctamente."
+    ],
+    "common_mistakes": [
+      "Rotar el torso.",
+      "Usar demasiado la mano asistente.",
+      "Perder equilibrio."
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Sentadilla tempo lento",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Sentadilla",
+    "unilateral": false,
+    "instructions": "Baja en una sentadilla contando 3–4 segundos y sube de forma controlada.",
+    "pro_tips": [
+      "Controla la bajada.",
+      "Mantén pecho erguido.",
+      "Empuja con los talones."
+    ],
+    "common_mistakes": [
+      "Bajar demasiado rápido.",
+      "Rodillas hacia dentro.",
+      "Inclinar el torso."
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Sentadilla a una pierna asistida",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Silla",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Sentadilla",
+    "unilateral": true,
+    "instructions": "Baja en sentadilla sobre una pierna utilizando una silla para mantener equilibrio.",
+    "pro_tips": [
+      "Controla la bajada.",
+      "Core activado.",
+      "Rodilla alineada."
+    ],
+    "common_mistakes": [
+      "Rodilla hacia dentro.",
+      "Perder equilibrio.",
+      "Bajar demasiado rápido."
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Pistol squat asistida",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Silla",
+    "difficulty": "Avanzado",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Sentadilla",
+    "unilateral": true,
+    "instructions": "Realiza una sentadilla a una pierna bajando hasta tocar ligeramente una silla.",
+    "pro_tips": [
+      "Mantén equilibrio.",
+      "Movimiento lento.",
+      "Empuja con el talón."
+    ],
+    "common_mistakes": [
+      "Perder equilibrio.",
+      "Rodilla hacia dentro.",
+      "Bajar demasiado rápido."
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Peso muerto con mochila",
+    "primary_muscle": "Glúteos",
+    "secondary_muscles": [
+      "Isquiotibiales",
+      "Espalda baja"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Bisagra de cadera",
+    "unilateral": false,
+    "instructions": "Sujeta una mochila con peso y flexiona la cadera bajándola hacia el suelo manteniendo la espalda recta.",
+    "pro_tips": [
+      "Espalda neutra.",
+      "Empuja cadera atrás.",
+      "Movimiento controlado."
+    ],
+    "common_mistakes": [
+      "Redondear la espalda.",
+      "Doblar demasiado las rodillas.",
+      "Bajar rápido."
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Peso muerto rumano con mochila",
+    "primary_muscle": "Isquiotibiales",
+    "secondary_muscles": [
+      "Glúteos"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Bisagra de cadera",
+    "unilateral": false,
+    "instructions": "Mantén las piernas casi estiradas mientras bajas la mochila hacia el suelo.",
+    "pro_tips": [
+      "Movimiento lento.",
+      "Espalda recta.",
+      "Estira isquiotibiales."
+    ],
+    "common_mistakes": [
+      "Curvar la espalda.",
+      "Bajar demasiado rápido.",
+      "Flexionar demasiado las rodillas."
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Remo inclinado con banda",
+    "primary_muscle": "Espalda",
+    "secondary_muscles": [
+      "Bíceps"
+    ],
+    "equipment": "Bandas elásticas",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Tracción horizontal",
+    "unilateral": false,
+    "instructions": "Inclina el torso y tira de la banda hacia el abdomen juntando los omóplatos.",
+    "pro_tips": [
+      "Aprieta escápulas.",
+      "Movimiento controlado.",
+      "Espalda recta."
+    ],
+    "common_mistakes": [
+      "Encoger hombros.",
+      "Balancear el cuerpo.",
+      "Curvar la espalda."
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Face pull con banda",
+    "primary_muscle": "Hombros",
+    "secondary_muscles": [
+      "Trapecio",
+      "Espalda"
+    ],
+    "equipment": "Bandas elásticas",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Tracción",
+    "unilateral": false,
+    "instructions": "Tira de una banda elástica hacia la cara separando los codos.",
+    "pro_tips": [
+      "Codos altos.",
+      "Aprieta escápulas.",
+      "Movimiento lento."
+    ],
+    "common_mistakes": [
+      "Encoger hombros.",
+      "Tirar demasiado rápido.",
+      "No abrir los codos."
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Burpees completos",
+    "primary_muscle": "Piernas",
+    "secondary_muscles": [
+      "Pecho",
+      "Hombros",
+      "Core"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Intermedio",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Explosivo",
+    "unilateral": false,
+    "instructions": "Desde posición de pie baja a plancha, realiza una flexión, vuelve a ponerte de pie y salta.",
+    "pro_tips": [
+      "Mantén el core activado.",
+      "Aterriza con suavidad.",
+      "Mantén ritmo constante."
+    ],
+    "common_mistakes": [
+      "Arquear la espalda.",
+      "Caer con demasiada fuerza.",
+      "Perder control en la plancha."
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Burpees sin flexión",
+    "primary_muscle": "Piernas",
+    "secondary_muscles": [
+      "Core"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Principiante",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Explosivo",
+    "unilateral": false,
+    "instructions": "Baja a plancha y vuelve a levantarte con un salto sin realizar flexión.",
+    "pro_tips": [
+      "Mantén el core firme.",
+      "Salta con control.",
+      "Mantén ritmo constante."
+    ],
+    "common_mistakes": [
+      "Caer fuerte.",
+      "Arquear la espalda.",
+      "Moverse demasiado rápido."
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Mountain climbers rápidos",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Piernas",
+      "Hombros"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Core",
+    "unilateral": true,
+    "instructions": "Desde posición de plancha alterna rápidamente las rodillas hacia el pecho.",
+    "pro_tips": [
+      "Mantén cadera baja.",
+      "Core activado.",
+      "Movimiento rápido pero controlado."
+    ],
+    "common_mistakes": [
+      "Levantar demasiado la cadera.",
+      "Golpear los pies.",
+      "Perder postura."
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Mountain climbers lentos",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Piernas"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": true,
+    "instructions": "Desde plancha lleva una rodilla al pecho lentamente y alterna.",
+    "pro_tips": [
+      "Controla el movimiento.",
+      "Core firme.",
+      "Respira de forma constante."
+    ],
+    "common_mistakes": [
+      "Levantar la cadera.",
+      "Movimiento brusco.",
+      "No activar abdomen."
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Jumping jacks",
+    "primary_muscle": "Piernas",
+    "secondary_muscles": [
+      "Hombros"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Principiante",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Explosivo",
+    "unilateral": false,
+    "instructions": "Salta abriendo piernas y brazos al mismo tiempo y vuelve a la posición inicial.",
+    "pro_tips": [
+      "Aterriza suave.",
+      "Mantén ritmo constante.",
+      "Coordina brazos y piernas."
+    ],
+    "common_mistakes": [
+      "Golpear fuerte el suelo.",
+      "Falta de coordinación.",
+      "Movimiento demasiado rápido."
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Jumping jacks con pausa",
+    "primary_muscle": "Piernas",
+    "secondary_muscles": [
+      "Hombros"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Principiante",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Explosivo",
+    "unilateral": false,
+    "instructions": "Realiza jumping jacks pero mantén un segundo de pausa con brazos y piernas abiertos.",
+    "pro_tips": [
+      "Controla la pausa.",
+      "Respira constantemente.",
+      "Mantén ritmo estable."
+    ],
+    "common_mistakes": [
+      "No hacer la pausa.",
+      "Moverse demasiado rápido.",
+      "Perder coordinación."
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Sentadilla con salto",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Intermedio",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Explosivo",
+    "unilateral": false,
+    "instructions": "Realiza una sentadilla y salta de forma explosiva al subir.",
+    "pro_tips": [
+      "Aterriza suave.",
+      "Empuja con los talones.",
+      "Core firme."
+    ],
+    "common_mistakes": [
+      "Caer fuerte.",
+      "Rodillas hacia dentro.",
+      "Inclinar torso."
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Saltos laterales",
+    "primary_muscle": "Piernas",
+    "secondary_muscles": [
+      "Core"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Principiante",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Explosivo",
+    "unilateral": true,
+    "instructions": "Salta lateralmente de un lado a otro manteniendo equilibrio.",
+    "pro_tips": [
+      "Aterriza suave.",
+      "Core activado.",
+      "Movimiento controlado."
+    ],
+    "common_mistakes": [
+      "Perder equilibrio.",
+      "Caer con fuerza.",
+      "Movimiento demasiado rápido."
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Saltos laterales con pausa",
+    "primary_muscle": "Piernas",
+    "secondary_muscles": [
+      "Core"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Intermedio",
+    "exercise_type": "Cardio",
+    "movement_pattern": "Explosivo",
+    "unilateral": true,
+    "instructions": "Salta lateralmente y mantén el equilibrio un segundo antes del siguiente salto.",
+    "pro_tips": [
+      "Controla el equilibrio.",
+      "Mantén el core activo.",
+      "Aterriza suave."
+    ],
+    "common_mistakes": [
+      "Perder estabilidad.",
+      "No hacer la pausa.",
+      "Saltar demasiado rápido."
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Plancha con toque de hombros",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Hombros"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": true,
+    "instructions": "Desde posición de plancha toca un hombro con la mano contraria alternando lados.",
+    "pro_tips": [
+      "Mantén cadera estable.",
+      "Movimiento controlado.",
+      "Core firme."
+    ],
+    "common_mistakes": [
+      "Balancear caderas.",
+      "Movimiento rápido.",
+      "Perder postura."
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Plancha lateral con elevación de pierna",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Glúteos",
+      "Hombros"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": true,
+    "instructions": "Desde plancha lateral eleva la pierna superior lentamente y vuelve a bajar.",
+    "pro_tips": [
+      "Mantén el cuerpo alineado.",
+      "Core activado.",
+      "Movimiento controlado."
+    ],
+    "common_mistakes": [
+      "Dejar caer la cadera.",
+      "Movimiento rápido.",
+      "No mantener equilibrio."
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Plancha lateral con rotación",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Hombros"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": true,
+    "instructions": "Desde plancha lateral gira el torso llevando el brazo libre por debajo del cuerpo.",
+    "pro_tips": [
+      "Controla la rotación.",
+      "Core firme.",
+      "Respira de forma constante."
+    ],
+    "common_mistakes": [
+      "Mover demasiado la cadera.",
+      "Movimiento brusco.",
+      "Perder equilibrio."
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Puente de glúteos a una pierna",
+    "primary_muscle": "Glúteos",
+    "secondary_muscles": [
+      "Isquiotibiales",
+      "Core"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Bisagra de cadera",
+    "unilateral": true,
+    "instructions": "Realiza un puente de glúteos elevando una pierna mientras empujas con la otra.",
+    "pro_tips": [
+      "Aprieta glúteos arriba.",
+      "Core activado.",
+      "Movimiento lento."
+    ],
+    "common_mistakes": [
+      "Arquear la espalda.",
+      "Bajar rápido.",
+      "Perder alineación."
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Puente de glúteos con mochila",
+    "primary_muscle": "Glúteos",
+    "secondary_muscles": [
+      "Isquiotibiales"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Bisagra de cadera",
+    "unilateral": false,
+    "instructions": "Coloca una mochila sobre la cadera y eleva la pelvis apretando glúteos.",
+    "pro_tips": [
+      "Empuja con talones.",
+      "Mantén core firme.",
+      "Aprieta glúteos arriba."
+    ],
+    "common_mistakes": [
+      "Arquear espalda.",
+      "No extender cadera.",
+      "Movimiento rápido."
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Hip thrust con mochila",
+    "primary_muscle": "Glúteos",
+    "secondary_muscles": [
+      "Isquiotibiales",
+      "Core"
+    ],
+    "equipment": "Silla",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Bisagra de cadera",
+    "unilateral": false,
+    "instructions": "Apoya la espalda en una silla con mochila sobre la cadera y eleva la pelvis.",
+    "pro_tips": [
+      "Aprieta glúteos arriba.",
+      "Mantén core firme.",
+      "Movimiento controlado."
+    ],
+    "common_mistakes": [
+      "Arquear espalda.",
+      "Bajar rápido.",
+      "No extender cadera."
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Elevaciones de talones de pie",
+    "primary_muscle": "Gemelos",
+    "secondary_muscles": [
+      "Sóleo"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Extensión tobillo",
+    "unilateral": false,
+    "instructions": "Eleva los talones del suelo quedándote sobre las puntas de los pies.",
+    "pro_tips": [
+      "Sube lentamente.",
+      "Mantén equilibrio.",
+      "Controla la bajada."
+    ],
+    "common_mistakes": [
+      "Bajar rápido.",
+      "Rebotar.",
+      "No extender completamente."
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Elevaciones de talones a una pierna",
+    "primary_muscle": "Gemelos",
+    "secondary_muscles": [
+      "Sóleo"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Extensión tobillo",
+    "unilateral": true,
+    "instructions": "Eleva el talón manteniendo el peso en una sola pierna.",
+    "pro_tips": [
+      "Movimiento lento.",
+      "Mantén equilibrio.",
+      "Controla la bajada."
+    ],
+    "common_mistakes": [
+      "Perder equilibrio.",
+      "Bajar rápido.",
+      "Rebotar."
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Elevaciones de talones en escalón",
+    "primary_muscle": "Gemelos",
+    "secondary_muscles": [
+      "Sóleo"
+    ],
+    "equipment": "Silla",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Extensión tobillo",
+    "unilateral": false,
+    "instructions": "Apoya la parte delantera del pie en un escalón o silla y eleva los talones.",
+    "pro_tips": [
+      "Baja completamente.",
+      "Sube lento.",
+      "Controla el movimiento."
+    ],
+    "common_mistakes": [
+      "Rebotar.",
+      "Movimiento rápido.",
+      "No bajar suficiente."
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Remo unilateral con mochila",
+    "primary_muscle": "Espalda",
+    "secondary_muscles": [
+      "Bíceps"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Tracción horizontal",
+    "unilateral": true,
+    "instructions": "Inclina el torso y tira de la mochila hacia la cadera con un brazo.",
+    "pro_tips": [
+      "Aprieta escápulas.",
+      "Espalda recta.",
+      "Movimiento controlado."
+    ],
+    "common_mistakes": [
+      "Encoger hombros.",
+      "Balancear cuerpo.",
+      "Curvar espalda."
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Curl de bíceps con banda",
+    "primary_muscle": "Bíceps",
+    "secondary_muscles": [
+      "Antebrazos"
+    ],
+    "equipment": "Bandas elásticas",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Flexión brazo",
+    "unilateral": false,
+    "instructions": "Pisa la banda y flexiona los codos llevando las manos hacia los hombros.",
+    "pro_tips": [
+      "Codos pegados al cuerpo.",
+      "Movimiento controlado.",
+      "Aprieta bíceps arriba."
+    ],
+    "common_mistakes": [
+      "Balancear el cuerpo.",
+      "Subir rápido.",
+      "Separar codos."
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Flexiones declinadas con pies en silla",
+    "primary_muscle": "Pecho",
+    "secondary_muscles": [
+      "Hombros",
+      "Tríceps"
+    ],
+    "equipment": "Silla",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje horizontal",
+    "unilateral": false,
+    "instructions": "Coloca los pies sobre una silla y realiza flexiones manteniendo el cuerpo recto.",
+    "pro_tips": [
+      "Mantén el core activado.",
+      "Controla la bajada.",
+      "Empuja de forma explosiva."
+    ],
+    "common_mistakes": [
+      "Arquear la espalda.",
+      "Bajar demasiado rápido.",
+      "Abrir demasiado los codos."
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Flexiones explosivas",
+    "primary_muscle": "Pecho",
+    "secondary_muscles": [
+      "Tríceps",
+      "Hombros"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Avanzado",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje horizontal",
+    "unilateral": false,
+    "instructions": "Realiza una flexión empujando con fuerza para despegar ligeramente las manos del suelo.",
+    "pro_tips": [
+      "Empuja fuerte.",
+      "Aterriza suave.",
+      "Core firme."
+    ],
+    "common_mistakes": [
+      "Caer con fuerza.",
+      "Arquear la espalda.",
+      "Perder control."
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Remo con banda sentado",
+    "primary_muscle": "Espalda",
+    "secondary_muscles": [
+      "Bíceps"
+    ],
+    "equipment": "Bandas elásticas",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Tracción horizontal",
+    "unilateral": false,
+    "instructions": "Sentado con piernas extendidas tira de la banda hacia el abdomen.",
+    "pro_tips": [
+      "Aprieta escápulas.",
+      "Espalda recta.",
+      "Movimiento controlado."
+    ],
+    "common_mistakes": [
+      "Encoger hombros.",
+      "Curvar espalda.",
+      "Movimiento rápido."
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Pull apart con banda",
+    "primary_muscle": "Hombros",
+    "secondary_muscles": [
+      "Espalda alta"
+    ],
+    "equipment": "Bandas elásticas",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Tracción",
+    "unilateral": false,
+    "instructions": "Sujeta la banda con ambos brazos al frente y sepárala abriendo los brazos.",
+    "pro_tips": [
+      "Mantén brazos rectos.",
+      "Aprieta escápulas.",
+      "Movimiento lento."
+    ],
+    "common_mistakes": [
+      "Encoger hombros.",
+      "Doblar brazos.",
+      "Movimiento rápido."
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Press de hombro con mochila",
+    "primary_muscle": "Hombros",
+    "secondary_muscles": [
+      "Tríceps",
+      "Core"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Empuje vertical",
+    "unilateral": false,
+    "instructions": "Sujeta una mochila y empuja hacia arriba desde los hombros.",
+    "pro_tips": [
+      "Core activado.",
+      "Movimiento controlado.",
+      "No arquees la espalda."
+    ],
+    "common_mistakes": [
+      "Arquear espalda.",
+      "Bajar rápido.",
+      "Encoger hombros."
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Elevaciones laterales con banda",
+    "primary_muscle": "Hombros",
+    "secondary_muscles": [
+      "Trapecio"
+    ],
+    "equipment": "Bandas elásticas",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Elevación hombro",
+    "unilateral": false,
+    "instructions": "Pisa la banda y eleva los brazos lateralmente hasta la altura de los hombros.",
+    "pro_tips": [
+      "Movimiento lento.",
+      "Codos ligeramente flexionados.",
+      "Controla la bajada."
+    ],
+    "common_mistakes": [
+      "Subir rápido.",
+      "Encoger hombros.",
+      "Balancear cuerpo."
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Sentadilla goblet con mochila",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Core"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Sentadilla",
+    "unilateral": false,
+    "instructions": "Sujeta una mochila frente al pecho y baja en sentadilla.",
+    "pro_tips": [
+      "Pecho erguido.",
+      "Rodillas alineadas.",
+      "Empuja con talones."
+    ],
+    "common_mistakes": [
+      "Inclinar torso.",
+      "Rodillas hacia dentro.",
+      "Bajar rápido."
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Zancadas caminando",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos",
+      "Isquiotibiales"
+    ],
+    "equipment": "Peso corporal",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Zancada",
+    "unilateral": true,
+    "instructions": "Da un paso largo hacia delante y baja en zancada alternando piernas.",
+    "pro_tips": [
+      "Mantén torso erguido.",
+      "Paso largo.",
+      "Empuja con talón delantero."
+    ],
+    "common_mistakes": [
+      "Rodilla adelantada.",
+      "Inclinar torso.",
+      "Movimiento rápido."
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Step-up en silla",
+    "primary_muscle": "Cuádriceps",
+    "secondary_muscles": [
+      "Glúteos"
+    ],
+    "equipment": "Silla",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Subida",
+    "unilateral": true,
+    "instructions": "Sube a una silla con una pierna y baja de forma controlada.",
+    "pro_tips": [
+      "Empuja con el talón.",
+      "Controla la bajada.",
+      "Mantén equilibrio."
+    ],
+    "common_mistakes": [
+      "Impulsarse con la otra pierna.",
+      "Caer rápido.",
+      "Perder equilibrio."
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Plancha con elevación alterna de brazos",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Hombros"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": true,
+    "instructions": "Desde posición de plancha levanta un brazo al frente alternando lados.",
+    "pro_tips": [
+      "Core firme.",
+      "Evita balancear caderas.",
+      "Movimiento controlado."
+    ],
+    "common_mistakes": [
+      "Mover caderas.",
+      "Subir rápido.",
+      "Perder postura."
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Plancha con elevación alterna de piernas",
+    "primary_muscle": "Core",
+    "secondary_muscles": [
+      "Glúteos"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Core",
+    "unilateral": true,
+    "instructions": "Desde plancha levanta una pierna unos centímetros alternando lados.",
+    "pro_tips": [
+      "Core activado.",
+      "Movimiento pequeño.",
+      "Mantén alineación."
+    ],
+    "common_mistakes": [
+      "Levantar demasiado la pierna.",
+      "Arquear espalda.",
+      "Mover cadera."
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Russian twist con mochila",
+    "primary_muscle": "Oblicuos",
+    "secondary_muscles": [
+      "Core"
+    ],
+    "equipment": "Mochila",
+    "difficulty": "Intermedio",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Rotación core",
+    "unilateral": true,
+    "instructions": "Sentado con piernas elevadas gira el torso llevando la mochila a cada lado.",
+    "pro_tips": [
+      "Core firme.",
+      "Movimiento controlado.",
+      "Gira el torso completo."
+    ],
+    "common_mistakes": [
+      "Mover solo brazos.",
+      "Curvar espalda.",
+      "Movimiento rápido."
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Superman hold",
+    "primary_muscle": "Espalda baja",
+    "secondary_muscles": [
+      "Glúteos"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Extensión espalda",
+    "unilateral": false,
+    "instructions": "Tumbado boca abajo eleva brazos y piernas manteniendo la posición.",
+    "pro_tips": [
+      "Aprieta glúteos.",
+      "Mantén cuello neutro.",
+      "Respira normal."
+    ],
+    "common_mistakes": [
+      "Levantar demasiado la cabeza.",
+      "Movimiento brusco.",
+      "Relajar el core."
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Superman alterno",
+    "primary_muscle": "Espalda baja",
+    "secondary_muscles": [
+      "Glúteos"
+    ],
+    "equipment": "Suelo",
+    "difficulty": "Principiante",
+    "exercise_type": "Fuerza",
+    "movement_pattern": "Extensión espalda",
+    "unilateral": true,
+    "instructions": "Eleva brazo derecho y pierna izquierda alternando lados.",
+    "pro_tips": [
+      "Movimiento lento.",
+      "Core activado.",
+      "Controla el movimiento."
+    ],
+    "common_mistakes": [
+      "Mover demasiado rápido.",
+      "Levantar cabeza.",
+      "No alternar correctamente."
+    ]
+  }
+]
