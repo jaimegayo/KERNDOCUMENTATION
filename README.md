@@ -1,144 +1,37 @@
-# PROYECTO INTERMODULAR KERN: SISTEMA DE GESTIÓN DE FITNESS INTELIGENTE
+# KERN: Fitness Management System
+
+Este repositorio contiene el proyecto completo **KERN**, una solución integral para la gestión de rutinas de entrenamiento y seguimiento de actividad física desarrollada como Proyecto Intermodular para el grado de **DAM/DAW**.
 
 ---
 
-## 📑 ÍNDICE
-1. [Sección 1: Introducción General](#sección-1-introducción-general)
-2. [Sección 2: Desarrollo Técnico](#sección-2-desarrollo-técnico)
-3. [Sección 3: Manual de Usuario](#sección-3-manual-de-usuario)
-4. [Sección 4: Conclusiones y Mejoras](#sección-4-conclusiones-y-mejoras)
-5. [Sección 5: Referencias](#sección-5-referencias)
+## 📄 Documentación Definitiva
+La documentación técnica completa, incluyendo el manual de instalación, la arquitectura detallada y el manual de usuario, se encuentra en el siguiente archivo:
+
+👉 **[MEMORIA_PROYECTO_KERN_FINAL.md](./MEMORIA_PROYECTO_KERN_FINAL.md)**
 
 ---
 
-## 🏛️ Sección 1: Introducción General
+## 🚀 Inicio Rápido
 
-### 1.1 Contexto y Origen
-El **Proyecto KERN** nace como una solución integral para el seguimiento del entrenamiento de fuerza y la actividad física diaria. En el marco del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM), este proyecto intermodular integra conocimientos de desarrollo móvil, servicios web, bases de datos y seguridad.
-
-### 1.2 Motivación y Problemática
-La mayoría de los usuarios de gimnasio carecen de un registro estructurado de sus progresos, lo que lleva al estancamiento. KERN soluciona esto mediante:
-*   **Asignación de Rutinas**: Un algoritmo que selecciona ejercicios basados en la ciencia del deporte.
-*   **Seguimiento Biométrico**: Uso del acelerómetro del móvil para contar pasos durante la sesión.
-*   **Análisis de Datos**: Visualización de la progresión del volumen de carga (kilos x repeticiones).
-
-### 1.3 Stack Tecnológico
-
-| Capa | Tecnología | Función |
-| :--- | :--- | :--- |
-| **Backend** | FastAPI (Python) | API REST Asíncrona de alto rendimiento. |
-| **BBDD** | PostgreSQL (Neon) | Almacenamiento relacional persistente. |
-| **Frontend** | Android (Java) | Aplicación nativa con arquitectura MVVM. |
-| **Seguridad** | JWT + SHA-256 | Autenticación basada en tokens y encriptación de datos. |
-| **Multimedia** | Cloudinary | CDN para la gestión y optimización de imágenes de perfil. |
-
----
-
-## 🛠️ Sección 2: Desarrollo Técnico
-
-### 2.1 Arquitectura del Sistema
-El sistema utiliza una arquitectura de microservicios simplificada, donde el frontend Android se comunica con un backend desplegado en la nube (Vercel) que interactúa con una base de datos gestionada.
-
-#### Diagrama de Clases y Datos (Mermaid)
-```mermaid
-classDiagram
-    class User {
-        +int id
-        +string username
-        +string email
-        +string avatar_url
-        +boolean has_completed_quiz
-    }
-    class Routine {
-        +int id
-        +string name
-        +List exercises
-    }
-    class WorkoutSession {
-        +int id
-        +float total_volume
-        +int steps
-        +datetime created_at
-    }
-    User "1" -- "*" Routine : gestiona
-    User "1" -- "*" WorkoutSession : registra
-    Routine "1" -- "*" Exercise : contiene
+### Backend (`/kern-api`)
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn app:app --reload
 ```
 
-### 2.2 Backend (FastAPI)
-El servidor implementa validación de datos mediante **Pydantic** y manejo de base de datos asíncrona con **SQLAlchemy**.
-*   **Seguridad**: Implementación de `OAuth2PasswordBearer` para la protección de rutas.
-*   **Generación de Rutinas**: El endpoint `/users/complete-quiz` utiliza un motor de búsqueda que mapea patrones de movimiento (Empuje, Tracción, Pierna) con los ejercicios del catálogo JSON para crear una rutina balanceada automáticamente.
-
-### 2.3 Frontend (Android Native)
-
-#### 2.3.1 Arquitectura MVVM
-Se ha utilizado el patrón **Model-View-ViewModel** para separar la lógica de negocio de la interfaz de usuario.
-*   **Repository Pattern**: `RoutineRepository` y `UserRepository` centralizan las llamadas a la API mediante Retrofit, permitiendo una fácil transición a bases de datos locales (Room) en el futuro.
-*   **Live Data**: Los ViewModels exponen objetos `LiveData` que los Fragmentos observan para reaccionar a cambios en los datos (ej: llegada de nuevas rutinas).
-
-#### 2.3.2 StepCounterService (Foreground Service)
-Para evitar que el sistema Android detenga el conteo de pasos durante el entrenamiento, se ha implementado un servicio en primer plano.
-*   **Gestión de Sensores**: Utiliza el sensor `TYPE_STEP_COUNTER`.
-*   **Resiliencia**: Almacena un "offset" en `SharedPreferences` para mantener el conteo correcto incluso si el usuario cierra la aplicación accidentalmente.
-
-### 2.4 Seguridad (Hashing y JWT)
-1.  Las contraseñas nunca se almacenan en plano. Se aplica **SHA-256** antes de persistir en la DB.
-2.  La sesión se mantiene mediante **JWT**. El token incluye la identidad del usuario y expira automáticamente para mitigar riesgos de seguridad.
+### Frontend (`/ProyectoIntermodular`)
+1. Abrir con Android Studio.
+2. Configurar `local.properties` con las claves de Cloudinary y la URL de la API (`http://10.0.2.2:8000/`).
+3. Sincronizar Gradle y ejecutar en el emulador.
 
 ---
 
-## 📖 Sección 3: Manual de Usuario
-
-### 3.1 Primeros Pasos: Registro y Bienvenida
-Al abrir KERN, el usuario es guiado a través de una interfaz moderna de bienvenida.
-1.  **Registro**: El usuario crea su cuenta.
-2.  **Cuestionario**: El sistema pregunta por sus objetivos y nivel actual.
-3.  **Generación**: Automáticamente se le asigna su primera rutina basada en sus respuestas.
-
-### 3.2 El Dashboard de Entrenamiento
-La pantalla principal ofrece una visión 360º del progreso:
-*   **Gráfico de Volumen**: Muestra la evolución de la carga levantada en el tiempo.
-*   **Estadísticas Globales**: Pasos totales y entrenamientos completados.
-
-### 3.3 Durante el Entrenamiento
-Al iniciar una sesión:
-*   **Sugerencia de Cargas**: El sistema muestra lo que el usuario levantó la última vez para motivar la mejora.
-*   **Temporizador de Descanso**: Cronómetro automático tras completar cada serie.
-*   **Conteo de Pasos**: Registro automático de la actividad física durante la sesión.
-
-### 3.4 Perfil y Personalización
-Desde el perfil, el usuario puede actualizar su nombre y su avatar, el cual se sincroniza instantáneamente con la nube mediante la integración con **Cloudinary**.
+## 🛠️ Tecnologías Principales
+*   **Servidor**: FastAPI, SQLAlchemy, PostgreSQL.
+*   **Móvil**: Android Nativo (Java), MVVM, Retrofit.
+*   **Servicios**: Cloudinary (Imágenes), Step Counter (Sensores biométricos).
 
 ---
-
-## 📈 Sección 4: Conclusiones y Mejoras
-
-### 4.1 Conclusiones Técnicas
-La integración de FastAPI y Android ha demostrado ser una combinación potente para aplicaciones de alta interactividad. La arquitectura asíncrona del backend permite manejar múltiples usuarios concurrentes con latencia mínima, mientras que el uso de servicios en segundo plano en Android garantiza un seguimiento biométrico preciso.
-
-### 4.2 Mejoras Propuestas (Roadmap)
-1.  **Soporte Offline**: Implementar una base de datos local (Room) para permitir el entrenamiento sin conexión a internet.
-2.  **Gamificación**: Añadir un sistema de niveles y logros para incentivar la constancia.
-3.  **Análisis de IA**: Integrar modelos de predicción para sugerir el peso óptimo de la siguiente serie basado en el rendimiento histórico.
-4.  **Notificaciones Push**: Recordatorios inteligentes de entrenamiento y consejos de salud.
-
----
-
-## 📚 Sección 5: Referencias
-
-### 5.1 Dependencias Backend
-*   `fastapi`: Framework principal.
-*   `sqlalchemy`: Gestión de base de datos.
-*   `python-jose`: Seguridad JWT.
-*   `asyncpg`: Driver asíncrono para PostgreSQL.
-
-### 5.2 Dependencias Frontend
-*   `Retrofit 2`: Comunicación de red.
-*   `MPAndroidChart`: Gráficos de rendimiento.
-*   `Cloudinary Android`: Gestión de imágenes.
-*   `Glide`: Renderizado eficiente de imágenes.
-
----
-**Proyecto KERN - 2026**
-*Desarrollado por Jaime Gayo*
+*Desarrollado por Jaime Gayo - I.E.S. Ágora (2026)*

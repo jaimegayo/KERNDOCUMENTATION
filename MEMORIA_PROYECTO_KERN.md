@@ -5,9 +5,10 @@
 ## ÍNDICE
 1. [Sección 1: Introducción General](#sección-1-introducción-general)
 2. [Sección 2: Desarrollo Técnico](#sección-2-desarrollo-técnico)
-3. [Sección 3: Manual de Usuario](#sección-3-manual-de-usuario)
-4. [Sección 4: Conclusiones y Mejoras](#sección-4-conclusiones-y-mejoras)
-5. [Sección 5: Referencias](#sección-5-referencias)
+3. [Manual Técnico: Guía de Instalación](#🛠️-manual-técnico-guía-de-instalación-y-puesta-en-marcha)
+4. [Sección 3: Manual de Usuario](#sección-3-manual-de-usuario)
+5. [Sección 4: Conclusiones y Mejoras](#sección-4-conclusiones-y-mejoras)
+6. [Sección 5: Referencias](#sección-5-referencias)
 
 ---
 
@@ -135,6 +136,111 @@ Se ha implementado una integración asíncrona con Cloudinary. El flujo es:
 4.  Android envía esa URL al endpoint `PUT /users/avatar` de KERN API.
 
 ---
+
+## 🛠️ Manual Técnico: Guía de Instalación y Puesta en Marcha
+
+Esta sección detalla los pasos necesarios para desplegar el entorno de desarrollo de KERN desde cero, cubriendo tanto el ecosistema backend como la aplicación móvil.
+
+### 1. Requisitos Previos
+
+Antes de comenzar, asegúrese de tener instaladas las siguientes herramientas en sus versiones mínimas recomendadas:
+
+*   **Python 3.10+**: Necesario para ejecutar la API asíncrona.
+*   **Java JDK 17**: Versión estándar para el desarrollo actual de Android.
+*   **Git**: Para el control de versiones y clonación del proyecto.
+*   **PostgreSQL 14+**: Motor de base de datos relacional (o acceso a una instancia en la nube como Neon.tech).
+*   **Android Studio (Flamingo o superior)**: Entorno de desarrollo para la App móvil.
+
+### 2. Puesta en marcha del Backend (`kern-api`)
+
+El backend de KERN es el corazón del sistema, encargado de la lógica de negocio y la persistencia de datos.
+
+#### 2.2.1 Clonación y Entorno Virtual
+Abra una terminal en su directorio de trabajo y ejecute los siguientes comandos:
+
+```bash
+# 1. Clonar el repositorio
+git clone <url-del-repositorio-kern-api>
+cd kern-api
+
+# 2. Crear un entorno virtual para aislar las dependencias
+python -m venv venv
+
+# 3. Activar el entorno virtual
+# En Windows:
+.\venv\Scripts\activate
+# En Linux/macOS:
+source venv/bin/activate
+```
+
+#### 2.2.2 Instalación de Dependencias
+Con el entorno virtual activo, instale los paquetes necesarios:
+
+```bash
+# Instalar dependencias desde el archivo requirements.txt
+pip install -r requirements.txt
+```
+
+#### 2.2.3 Configuración de Variables de Env (Archivo .env)
+Cree un archivo llamado `.env` en la raíz de la carpeta `kern-api`. Este archivo contendrá las credenciales sensibles:
+
+```env
+# Clave secreta para firmar los tokens JWT
+SECRET_KEY=su_clave_secreta_super_segura_32_caracteres
+
+# URL de conexión a la base de datos PostgreSQL (Formato asyncpg)
+DATABASE_URL=postgresql+asyncpg://usuario:password@host:puerto/nombre_db
+```
+
+*   **Nota**: Si utiliza una base de datos con SSL (como Neon), añada `?ssl=require` al final de la URL.
+
+#### 2.2.4 Ejecución y Creación de Tablas
+La API está configurada para crear las tablas automáticamente al arrancar. Para iniciar el servidor:
+
+```bash
+# Levantar el servidor con Uvicorn y recarga automática
+uvicorn app:app --reload --port 8000
+```
+
+### 3. Puesta en marcha del Frontend (`ProyectoIntermodular`)
+
+#### 3.1 Configuración de Claves Locales
+Abra el proyecto en **Android Studio**. Localice el archivo `local.properties` (en la raíz del proyecto) y añada las claves de Cloudinary y la URL del backend:
+
+```properties
+# Credenciales de Cloudinary
+CLOUDINARY_CLOUD_NAME=nombre_de_tu_cloud
+CLOUDINARY_API_KEY=tu_api_key_numerica
+CLOUDINARY_UPLOAD_PRESET=tu_preset_sin_firmar
+
+# URL de la API de KERN
+# 10.0.2.2 es el alias del localhost para el emulador de Android
+API_URL=http://10.0.2.2:8000/
+```
+
+#### 3.2 Sincronización y Compilación
+1.  Pulse en **Sync Project with Gradle Files**.
+2.  Espere a que finalice la descarga de librerías.
+3.  Seleccione un dispositivo y pulse **Run 'app'**.
+
+### 4. Verificación de la Instalación
+
+#### 4.1 FastAPI Interactive Docs
+Acceda a `http://127.0.0.1:8000/docs` para visualizar la documentación automática de Swagger y probar los endpoints.
+
+#### 4.2 Generación de APK
+Para generar un instalable de depuración: `Build > Build Bundle(s) / APK(s) > Build APK(s)`.
+
+### 5. Solución de Problemas Comunes (Troubleshooting)
+
+| Problema | Causa | Solución |
+| :--- | :--- | :--- |
+| **CLEARTEXT_COMMUNICATION** | Bloqueo de tráfico HTTP. | Verifique que `network_security_config.xml` permite el dominio `10.0.2.2`. |
+| **DB Connection Refused** | PostgreSQL no escucha o puerto bloqueado. | Verifique que el servicio de Postgres está iniciado y el firewall permite el puerto 5432. |
+| **Auth Error 401** | Token JWT expirado o SECRET_KEY desajustada. | Reinicie sesión en la App para generar un nuevo token válido. |
+
+---
+
 
 ## Sección 3: Manual de Usuario
 
