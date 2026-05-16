@@ -33,7 +33,7 @@ python --version
 ```bash
 cd tu-directorio-de-proyectos
 # Si tienes git:
-git clone <url-del-repositorio>
+git clone <[url-del-repositorio](https://github.com/jaimegayo/KERNDOCUMENTATION.git)>
 cd kern-api
 ```
 
@@ -57,7 +57,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Ejecutar servidor
-```bash
 python app.py
 ```
 O con recarga automática (recomendado para desarrollo):
@@ -250,7 +249,7 @@ sequenceDiagram
 
 ---
 
-### 10.1 Mejoras Pendientes
+### Mejoras Pendientes
 
 - [ ] **Recuperación de contraseña** - Endpoint para reset password
 - [ ] **Logs y monitoreo** - Registrar actividad
