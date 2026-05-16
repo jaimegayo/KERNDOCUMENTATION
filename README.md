@@ -33,7 +33,7 @@ python --version
 ```bash
 cd tu-directorio-de-proyectos
 # Si tienes git:
-git clone <url-del-repositorio>
+git clone <[url-del-repositorio](https://github.com/jaimegayo/KERNDOCUMENTATION.git)>
 cd kern-api
 ```
 
