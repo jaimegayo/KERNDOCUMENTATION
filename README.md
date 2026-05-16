@@ -1,6 +1,6 @@
 # KERN: Fitness Management System
 
-Este repositorio contiene el proyecto completo **KERN**, una solución integral para la gestión de rutinas de entrenamiento y seguimiento de actividad física desarrollada como Proyecto Intermodular para el grado de **DAM/DAW**.
+Este repositorio contiene el proyecto completo **KERN**, una solución integral para la gestión de rutinas de entrenamiento y seguimiento de actividad física desarrollada como Proyecto Intermodular para el grado de **DAM**.
 
 ---
 
@@ -11,27 +11,54 @@ La documentación técnica completa, incluyendo el manual de instalación, la ar
 
 ---
 
-## 🚀 Inicio Rápido
+## 🚀 ### Configuración de Ejecución Local
 
 ### Backend (`/kern-api`)
+
 ```bash
+# Crear entorno virtual
 python -m venv venv
+
+# Activar entorno virtual
+# Windows
+venv\Scripts\activate
+
+# Linux/macOS
 source venv/bin/activate
+
+# Instalar dependencias
 pip install -r requirements.txt
-uvicorn app:app --reload
+
+# Ejecutar servidor
+uvicorn app:app --reload --host 0.0.0.0 --port 8002
 ```
 
 ### Frontend (`/ProyectoIntermodular`)
-1. Abrir con Android Studio.
-2. Configurar `local.properties` con las claves de Cloudinary y la URL de la API (`http://10.0.2.2:8000/`).
-3. Sincronizar Gradle y ejecutar en el emulador.
 
----
+Configurar la URL de conexión en producción:
 
-## 🛠️ Tecnologías Principales
-*   **Servidor**: FastAPI, SQLAlchemy, PostgreSQL.
-*   **Móvil**: Android Nativo (Java), MVVM, Retrofit.
-*   **Servicios**: Cloudinary (Imágenes), Step Counter (Sensores biométricos).
+```java
+private static final String BASE_URL =
+    "https://kern-blue.vercel.app/";
+```
+
+Para pruebas locales con emulador Android:
+
+```java
+private static final String BASE_URL =
+    "http://10.0.2.2:8002/";
+```
+
+### Tecnologías de Despliegue
+
+| Componente | Tecnología | Función |
+|------------|------------|----------|
+| Frontend | Android (Java) | Aplicación cliente |
+| Backend | FastAPI | API REST |
+| Hosting | Vercel | Ejecución serverless |
+| Base de Datos | Neon PostgreSQL | Persistencia cloud |
+| Multimedia | Cloudinary | Gestión de imágenes |
+| Comunicación | Retrofit + HTTPS | Cliente-servidor |
 
 ---
 ## 2.X Despliegue del Sistema
@@ -98,60 +125,5 @@ sequenceDiagram
     NeonDB-->>FastAPI: Base de datos operativa
     FastAPI-->>Vercel: API desplegada
 ```
-
-### Configuración de Ejecución Local
-
-#### Backend (FastAPI)
-
-```bash
-# Crear entorno virtual
-python -m venv venv
-
-# Activar entorno virtual
-# Windows
-venv\Scripts\activate
-
-# Linux/macOS
-source venv/bin/activate
-
-# Instalar dependencias
-pip install -r requirements.txt
-
-# Ejecutar servidor
-uvicorn app:app --reload --host 0.0.0.0 --port 8002
-```
-
-#### Frontend Android
-
-Configurar la URL de conexión en producción:
-
-```java
-private static final String BASE_URL =
-    "https://kern-blue.vercel.app/";
-```
-
-Para pruebas locales con emulador Android:
-
-```java
-private static final String BASE_URL =
-    "http://10.0.2.2:8002/";
-```
-
-### Tecnologías de Despliegue
-
-| Componente | Tecnología | Función |
-|------------|------------|----------|
-| Frontend | Android (Java) | Aplicación cliente |
-| Backend | FastAPI | API REST |
-| Hosting | Vercel | Ejecución serverless |
-| Base de Datos | Neon PostgreSQL | Persistencia cloud |
-| Multimedia | Cloudinary | Gestión de imágenes |
-| Comunicación | Retrofit + HTTPS | Cliente-servidor |
-
-### Capturas recomendadas
-- Dashboard de **Vercel** mostrando el despliegue correcto.  
-- Consola de **Neon PostgreSQL** con las tablas del sistema.  
-- Swagger UI (`/docs`) funcionando en producción.  
-- Panel de **Cloudinary** con avatares subidos.
 
 *Desarrollado por Jaime Gayo - I.E.S. Ágora (2026)*
