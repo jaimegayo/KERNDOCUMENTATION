@@ -4,14 +4,41 @@ Este repositorio contiene el proyecto completo **KERN**, una solución integral 
 
 ---
 
-## 📄 Documentación Definitiva
+## 📄 Documentación Breve
 La documentación técnica completa, incluyendo el manual de instalación, la arquitectura detallada y el manual de usuario, se encuentra en el siguiente archivo:
 
 👉 **[MEMORIA_PROYECTO_KERN_FINAL.md](./MEMORIA_PROYECTO_KERN_FINAL.md)**
 
 ---
 
-## 🚀 ### Configuración de Ejecución Local
+## Requisitos
+
+### Software Necesario
+
+- **Python 3.8+** instalado
+- **pip** (gestor de paquetes de Python)
+- **Git** (opcional, para control de versiones)
+
+### Verificar Python
+
+```bash
+python --version
+# Debería mostrar: Python 3.8.x o superior
+```
+
+---
+
+### Clonar/Descargar el Proyecto
+
+```bash
+cd tu-directorio-de-proyectos
+# Si tienes git:
+git clone <url-del-repositorio>
+cd kern-api
+```
+
+
+## 🚀 Configuración de Ejecución Local
 
 ### Backend (`/kern-api`)
 
@@ -30,8 +57,23 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Ejecutar servidor
+```bash
+python app.py
+```
+O con recarga automática (recomendado para desarrollo):
+
+```bash
 uvicorn app:app --reload --host 0.0.0.0 --port 8002
 ```
+
+### Verificar
+
+Abre en tu navegador:
+- **API**: http://localhost:8002
+- **Documentación Swagger**: http://localhost:8002/docs
+- **Documentación ReDoc**: http://localhost:8002/redoc
+
+---
 
 ### Frontend (`/ProyectoIntermodular`)
 
@@ -61,7 +103,23 @@ private static final String BASE_URL =
 | Comunicación | Retrofit + HTTPS | Cliente-servidor |
 
 ---
-## 2.X Despliegue del Sistema
+
+## 8. Manejo de Errores
+
+### Códigos de Estado HTTP
+
+| Código | Significado | Cuándo ocurre |
+|--------|-------------|---------------|
+| **200** | OK | Petición exitosa |
+| **400** | Bad Request | Datos inválidos, usuario ya existe |
+| **401** | Unauthorized | Credenciales incorrectas, token inválido/expirado |
+| **404** | Not Found | Endpoint no existe |
+| **422** | Unprocessable Entity | Datos no pasan validación de Pydantic |
+| **500** | Internal Server Error | Error del servidor |
+
+---
+
+## Despliegue del Sistema
 
 El despliegue de KERN se basa en una arquitectura desacoplada, donde el cliente Android, el backend, la base de datos y el almacenamiento multimedia operan como servicios independientes conectados mediante peticiones HTTPS.
 
@@ -125,5 +183,21 @@ sequenceDiagram
     NeonDB-->>FastAPI: Base de datos operativa
     FastAPI-->>Vercel: API desplegada
 ```
+---
+## Usuarios de Prueba
+
+| Email | Contraseña |
+|---------|------------|
+| calvo@gmail.com | password123pruebaApp |
+
+---
+
+### 10.1 Mejoras Pendientes
+
+- [ ] **Recuperación de contraseña** - Endpoint para reset password
+- [ ] **Logs y monitoreo** - Registrar actividad
+- [ ] **Tests automatizados** - Pytest para la API
+
+---
 
 *Desarrollado por Jaime Gayo - I.E.S. Ágora (2026)*
