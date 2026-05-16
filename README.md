@@ -57,7 +57,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Ejecutar servidor
-```bash
 python app.py
 ```
 O con recarga automática (recomendado para desarrollo):
