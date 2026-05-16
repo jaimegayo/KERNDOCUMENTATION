@@ -123,6 +123,64 @@ private static final String BASE_URL =
 
 El despliegue de KERN se basa en una arquitectura desacoplada, donde el cliente Android, el backend, la base de datos y el almacenamiento multimedia operan como servicios independientes conectados mediante peticiones HTTPS.
 
+---
+
+## Estructura de Directorios
+
+La organización del proyecto KERN sigue una estructura modular y desacoplada, separando el cliente móvil Android del backend FastAPI para facilitar el mantenimiento, la escalabilidad y la reutilización del código.
+
+### Estructura del Frontend (Android)
+
+```text
+ProyectoIntermodular/
+└── app/src/main/java/es/iesagora/proyectointermodular/
+    ├── data/
+    │   ├── model/          # Modelos de datos (POJOs)
+    │   ├── remote/         # API Retrofit
+    │   └── repository/     # Acceso y gestión de datos
+    ├── services/           # Servicios en segundo plano
+    ├── ui/
+    │   ├── adapter/        # Adaptadores RecyclerView
+    │   └── login/          # Pantallas de autenticación
+    ├── viewmodel/          # Lógica de UI (MVVM)
+    ├── utils/              # Utilidades y constantes
+    └── MainActivity.java   # Punto de entrada
+```
+
+**Descripción de carpetas principales:**
+
+- **data/**: Gestiona el acceso a datos de la aplicación, incluyendo modelos, peticiones API y repositorios.
+- **services/**: Contiene servicios del sistema como `StepCounterService`, encargado del conteo de pasos en segundo plano.
+- **ui/**: Agrupa las pantallas (`Fragments`) y componentes visuales de la aplicación.
+- **viewmodel/**: Implementa la lógica de presentación siguiendo el patrón **MVVM**, actuando como intermediario entre datos y vistas.
+- **utils/**: Incluye constantes, configuraciones y funciones auxiliares.
+
+### Estructura del Backend (FastAPI)
+
+```text
+kern-api/
+├── api/
+│   └── index.py         # Punto de entrada para Vercel
+├── data/                # Datos estáticos (ejercicios JSON)
+├── docs/                # Documentación técnica
+├── app.py               # Endpoints y lógica principal
+├── models.py            # Modelos SQLAlchemy y Pydantic
+├── database.py          # Configuración BD PostgreSQL
+├── requirements.txt     # Dependencias Python
+└── vercel.json          # Configuración del despliegue
+```
+
+**Descripción de archivos principales:**
+
+- **app.py**: Contiene la lógica principal de la API REST y los endpoints.
+- **models.py**: Define las entidades de la base de datos y los esquemas de validación.
+- **database.py**: Gestiona la conexión asíncrona con PostgreSQL (Neon).
+- **data/**: Almacena datos estáticos utilizados para la generación de rutinas.
+- **api/index.py**: Archivo de entrada utilizado por Vercel para el despliegue serverless.
+
+Esta estructura permite mantener separadas las responsabilidades de presentación, lógica de negocio y persistencia de datos, favoreciendo un desarrollo modular y escalable.
+
+---
 ### Arquitectura de Despliegue
 
 ```mermaid
