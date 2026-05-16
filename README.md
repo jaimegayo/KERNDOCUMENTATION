@@ -191,7 +191,7 @@ sequenceDiagram
 
 ---
 
-### 10.1 Mejoras Pendientes
+### Mejoras Pendientes
 
 - [ ] **Recuperación de contraseña** - Endpoint para reset password
 - [ ] **Logs y monitoreo** - Registrar actividad
