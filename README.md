@@ -245,7 +245,7 @@ sequenceDiagram
 
 | Email | Contraseña |
 |---------|------------|
-| calvo@gmail.com | password123pruebaApp |
+| iesagora@educarex.es | password123pruebaApp |
 
 ---
 
