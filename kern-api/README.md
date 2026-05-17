@@ -23,7 +23,6 @@ Este repositorio contiene la lógica de servidor para el proyecto Kern, desarrol
 ---
 
 ```mermaid
-useCaseDiagram
     actor Usuario
     
     package "Sistema KERN" {
