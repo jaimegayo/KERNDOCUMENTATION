@@ -645,21 +645,47 @@ async def update_routine(
         if not db_routine:
             raise HTTPException(status_code=404, detail="Rutina no encontrada")
 
+        old_name = db_routine.name
         db_routine.name = routine_data.nombre
 
-        await db.execute(
-            delete(RoutineExercise).where(RoutineExercise.routine_id == routine_id)
-        )
-
-        for ex_data in routine_data.ejercicios:
-            series_list = [s.model_dump() if hasattr(s, 'model_dump') else s.dict() for s in ex_data.series]
-            
-            new_exercise = RoutineExercise(
-                routine_id=routine_id,
-                exercise_name=ex_data.nombre,
-                series=series_list
+        # Actualizar historial para no perder el tracking al renombrar
+        if old_name != routine_data.nombre:
+            sessions_result = await db.execute(
+                select(WorkoutSession).where(
+                    WorkoutSession.user_id == current_user.id,
+                    WorkoutSession.routine_name == old_name
+                )
             )
-            db.add(new_exercise)
+            for s in sessions_result.scalars().all():
+                s.routine_name = routine_data.nombre
+
+        # Verificar si el payload contiene ejercicios con datos reales
+        has_real_data = False
+        for ex in routine_data.ejercicios:
+            for s in ex.series:
+                if s.kilos > 0 or s.reps > 0:
+                    has_real_data = True
+                    break
+            if has_real_data:
+                break
+
+        # Si el payload envía ejercicios vacíos (todo a 0), asumimos que es solo un renombrado desde la app
+        is_empty_rename = not has_real_data and len(routine_data.ejercicios) > 0
+
+        if not is_empty_rename:
+            await db.execute(
+                delete(RoutineExercise).where(RoutineExercise.routine_id == routine_id)
+            )
+    
+            for ex_data in routine_data.ejercicios:
+                series_list = [s.model_dump() if hasattr(s, 'model_dump') else s.dict() for s in ex_data.series]
+                
+                new_exercise = RoutineExercise(
+                    routine_id=routine_id,
+                    exercise_name=ex_data.nombre,
+                    series=series_list
+                )
+                db.add(new_exercise)
         
         await db.commit()
         
