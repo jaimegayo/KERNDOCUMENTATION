@@ -20,6 +20,9 @@ Este repositorio contiene la lógica de servidor para el proyecto Kern, desarrol
 - `POST /register`: Registro de nuevos perfiles.
 - `POST /users/complete-quiz`: Guardado de rutina asignada.
 
+---
+
+```mermaid
 useCaseDiagram
     actor Usuario
     
@@ -45,4 +48,5 @@ useCaseDiagram
     UC2 ..> UC2_1 : <<include>>
     UC4 ..> UC4_1 : <<include>>
     UC4 ..> UC4_2 : <<include>>
+```
 
