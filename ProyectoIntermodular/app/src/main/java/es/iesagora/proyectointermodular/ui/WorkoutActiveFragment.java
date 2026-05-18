@@ -182,6 +182,9 @@ public class WorkoutActiveFragment extends Fragment {
 
             rvActiveExercises.setAdapter(adapter);
 
+            // Recalcular volumen total y series completadas al restaurar/cargar la interfaz
+            adapter.calcularVolumenTotal();
+
             // Implementación de deslizar para eliminar ejercicio (Fase 3)
             ItemTouchHelper.SimpleCallback itemTouchHelperCallback = new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT) {
                 @Override
